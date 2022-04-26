@@ -1,0 +1,69 @@
+.pdf-save.btn.btn-outline-primary {
+    color: #22115F;
+    font-weight: bold;
+    border-color: #9988FF;
+    border-width: 2px;
+    padding: 15px;
+    margin-top: 5vh;
+}
+
+.pdf-save.btn.btn-outline-primary:hover, .pdf-save.btn.btn-outline-primary:focus, .pdf-save.btn.btn-outline-primary:active, .pdf-save.btn.btn-outline-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #22115F;
+    border-color: #9988FF; /*set the color you want here*/
+    color: #FFFFFF;
+}
+
+.Manifesto{
+    width: 100%;
+    background-color: #CAC5FF ;
+}
+
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.pdfIcon{
+    padding-left: 15px;
+}
+.centerPdfButton{
+    text-align: center;
+}
+
+.ManifestoMain{
+    margin: auto;
+    text-justify: auto;
+    text-align: justify;
+    width: 50%;
+    margin-bottom: 10vh;
+}
+
+
+.scrollToTopBtn {
+    /* same general styles as before */
+    
+    /* place it at the bottom-right corner */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  
+    /* keep it at the top of everything else */
+    z-index: 100;
+  
+    /* hide with opacity */
+    opacity: 0;
+  
+    /* also add a translate effect */
+    transform: translateY(100px);
+  
+    /* and a transition */
+    transition: all .5s ease
+  }
+  
+  .showBtn {
+    opacity: 1;
+    transform: translateY(0)
+  }
+

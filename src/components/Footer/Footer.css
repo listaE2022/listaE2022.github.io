@@ -1,0 +1,50 @@
+.Footer{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #4A3197;
+    color: white;
+}
+
+.footer-inner{
+    margin: 0 auto;
+    
+}
+
+.contactos{
+    text-align: left;
+}
+
+.links ul{
+    padding-left: 0;
+    list-style-type:none;
+    list-style-position: outside;
+    margin-bottom: 1rem;
+    display: block;
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    width: 100%;
+
+    text-align: left;
+}
+
+.link{
+    text-decoration: none;
+}
+
+ul li{
+    width: 100%;
+    text-decoration:none;
+    display: list-item;
+    border-bottom: 2px solid #CAC5FF;
+    padding: 1vh;
+    margin-bottom: 2vh;
+    
+}
+
+.social-media{
+    float: left;
+}

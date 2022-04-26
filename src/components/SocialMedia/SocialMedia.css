@@ -1,0 +1,15 @@
+.SocialMedia{
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn.btn-primary {
+    color: #FFFFFF;
+    background-color: #9988FF;
+    font-weight: bold;
+    border-color: #9988FF;
+    border-width: 2px;
+}
