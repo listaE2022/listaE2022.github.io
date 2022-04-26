@@ -10,7 +10,7 @@ figure img{
 figure {
     
     position: relative;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
     max-width: 420px;
     transition: transform .2s;
     max-height: 420px;

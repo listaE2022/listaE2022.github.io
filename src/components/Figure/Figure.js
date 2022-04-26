@@ -5,7 +5,7 @@ function Figure(props) {
   return (
     <div className='centerDiv'>
     <figure itemprop="image">
-        <img src={props.image} />
+        <img src={props.image} alt={props.path} />
         <figcaption>
         <Link className='link' to={props.path}>
            <button className="btn btn-outline-primary btn-round"> Ver Mais </button>

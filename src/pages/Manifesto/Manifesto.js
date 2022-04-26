@@ -1,4 +1,4 @@
-import ManifestoHeader from '../../components/ManifestoHeader/ManifestoHeader';
+
 import './Manifesto.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf, faArrowUp} from '@fortawesome/free-solid-svg-icons';
@@ -6,6 +6,7 @@ import Indice from '../../components/Indice/Indice';
 import ManifestoMain from '../../components/ManifestoMain/ManifestoMain';
 import { Component } from 'react';
 import Footer from '../../components/Footer/Footer.js';
+import Header from '../../components/Header/Header';
 
 class Manifesto extends Component {
 
@@ -22,7 +23,7 @@ class Manifesto extends Component {
       return (
       <div className="Manifesto">
         
-          <ManifestoHeader></ManifestoHeader>
+          <Header section_name='MANIFESTO'></Header>
           <div className='centerPdfButton'>
             <a href='https://drive.google.com/u/0/uc?id=1SUUDFKGESk7r9bK8WeTA1ohfj0-kjtRq&export=download'>
               <button className="btn btn-outline-primary btn-round pdf-save">

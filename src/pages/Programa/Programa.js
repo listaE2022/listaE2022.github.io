@@ -1,6 +1,6 @@
 import { Component } from "react";
 import Footer from "../../components/Footer/Footer";
-import ManifestoHeader from "../../components/ManifestoHeader/ManifestoHeader";
+import Header from "../../components/Header/Header";
 import './Programa.css';
 import desporto from '../../images/miguel.png';
 import Figure from "../../components/Figure/Figure";
@@ -14,7 +14,7 @@ class Programa extends Component {
     render(){
         return (
         <div className="Programa">
-          <ManifestoHeader></ManifestoHeader>
+          <Header section_name='PROGRAMA'></Header>
           <div className="programa-container">
               <div className="container">
                   <div className="row">
@@ -22,7 +22,6 @@ class Programa extends Component {
                       
                       <Figure image={desporto} path="/programa/desporto"></Figure>
                   
-                      
                     </div>
                     <div className="col-lg">
                     

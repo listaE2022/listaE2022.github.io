@@ -16,3 +16,11 @@
     border-color: #9988FF;
     border-width: 2px;
 }
+
+#section_name{
+    color: white;
+    font-weight: bolder;
+    margin-top: auto;
+    margin-bottom: 5vh;
+    text-align: center;
+}
