@@ -31,9 +31,9 @@ return (
 
             </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
+            <div className="co ntainer">
+                <div className="ro w">
+                    <div className="co l-sm">
                         <div>
                             <h2>Torneios de E-Sports</h2>
                                 <p>
@@ -48,7 +48,7 @@ return (
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="co l-sm">
                     <div id="ensino-com-dignidade">
                         <h2>Torneios de desportos individuais e de equipa</h2>
                             <p>
@@ -74,8 +74,8 @@ return (
 
                 </div>
 
-                <div class="row">
-                    <div class="col-sm">
+                <div className="ro w">
+                    <div className="co l-sm">
                         <div>
                             <h2 id="ensino-democratico">Aulas individuais</h2>
                                 <p>
@@ -85,7 +85,7 @@ return (
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="co l-sm">
                         <div>
                             <h2 id="ensino-democratico">Corridas de Orientação</h2>
                         <p>
@@ -122,7 +122,7 @@ return (
 
        </div>
 
-       <button id='scrollToTopBtn' className='scrollToTopBtn'>
+       <button id='scrollToTopBtn' className ='scrollToTopBtn'>
           <FontAwesomeIcon icon={faArrowUp} size="lg" />
         </button>
 

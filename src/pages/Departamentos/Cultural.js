@@ -32,9 +32,9 @@ const navigate = useNavigate();
 
        </div>
 
-       <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+       <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Concertos e Jam Sessions</h2>
             
@@ -47,7 +47,7 @@ const navigate = useNavigate();
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Concursos</h2>
                         <p>
@@ -70,9 +70,9 @@ const navigate = useNavigate();
             </div>
         </div>
 
-        <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+        <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Semanas Temáticas</h2>
             
@@ -95,7 +95,7 @@ const navigate = useNavigate();
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Biblioteca Partilhada e Clube do Livro</h2>
                         <p>
@@ -108,9 +108,9 @@ const navigate = useNavigate();
                     </div>
             </div>
         </div>
-        <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+        <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Jornal da Associação de Estudantes, com Agenda Cultural</h2>
             
@@ -122,7 +122,7 @@ const navigate = useNavigate();
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Exposições e Teatro no Espaço da AE</h2>
                         <p>
@@ -140,9 +140,9 @@ const navigate = useNavigate();
                     </div>
             </div>
         </div>
-        <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+        <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Workshops de Artes Plásticas e Performativas</h2>            
                         <p>Promoveremos eventos onde todos os estudantes, mesmo aqueles sem prática na área,
@@ -152,7 +152,7 @@ const navigate = useNavigate();
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Sessões de Cinema</h2>
                         <p>
@@ -167,7 +167,7 @@ const navigate = useNavigate();
             </div>
         </div>
         </div>
-    <button id='scrollToTopBtn' className='scrollToTopBtn'>
+    <button id='scrollToTopBtn' className ='scrollToTopBtn'>
         <FontAwesomeIcon icon={faArrowUp} size="lg" />
     </button>
 

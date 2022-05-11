@@ -24,7 +24,7 @@ class Programa extends Component {
   render(){
         return (
         <div className="Programa">
-          <Header section_name='PROGRAMA'></Header>
+          <Header section_name=''></Header>
           <div className="programa-container">
 
           <div className='centerButtonPdf'>

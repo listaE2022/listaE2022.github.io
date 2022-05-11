@@ -28,9 +28,9 @@ const navigate = useNavigate();
             </p>
 
        </div>
-       <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+       <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Plataforma de transparência</h2>
             
@@ -44,7 +44,7 @@ const navigate = useNavigate();
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Website AEFEUP</h2>
                         <ul>

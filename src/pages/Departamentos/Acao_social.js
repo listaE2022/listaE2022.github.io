@@ -32,7 +32,7 @@ return (
             </p>
        </div>
       
-        <div class="paragrafo">
+        <div className="paragrafo">
             <p>Como é hoje sabido, "O consumo de antidepressivos não para de aumentar com Portugal a
                 surgir em terceiro lugar na lista dos países desenvolvidos (da OCDE). Nos ansiolíticos, o
                 volume de vendas (...) coloca mesmo Portugal em primeiro lugar comparativamente com
@@ -72,9 +72,9 @@ return (
                 este flagelo.
             </p>
         </div>
-        <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+        <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Acessibilidade</h2>
             
@@ -91,7 +91,7 @@ return (
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Ação Social</h2>
                         <p>Neste campo, propomos:</p>  
@@ -104,10 +104,10 @@ return (
                     </div>
             </div>
         </div>
-        <div class="container">
+        <div className="container">
             <h2>Saúde Mental</h2>
-           <div class="row">
-                    <div class="col-sm">
+           <div className="row">
+                    <div classNameName="col-sm">
                       <div>            
                         <p>Propostas a serem apresentadas à FEUP:</p>
                             <ul>
@@ -120,7 +120,7 @@ return (
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <p>Propostas a executar pela AEFEUP:</p>  
                         <ul>
@@ -136,10 +136,10 @@ return (
                     </div>
             </div>
         </div>
-        <div class="container">
+        <div className="container">
             <h2>Alimentação</h2>
-           <div class="row">
-                    <div class="col-sm">
+           <div className="row">
+                    <div className="col-sm">
                       <div>            
                         <p>Propostas a serem apresentadas à FEUP:</p>
                             <ul>
@@ -150,7 +150,7 @@ return (
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <p>Propostas a executar pela AEFEUP:</p>  
                         <ul>
@@ -165,10 +165,10 @@ return (
                     </div>
             </div>
         </div>
-        <div class="container">
+        <div className="container">
             <h2>Ambiente</h2>
-           <div class="row">
-                    <div class="col-sm">
+           <div className="row">
+                    <div className="col-sm">
                       <div>            
                         <p>Propostas a serem apresentadas à FEUP:</p>
                             <ul>
@@ -181,7 +181,7 @@ return (
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <p>Propostas a executar pela AEFEUP:</p>  
                         <ul>

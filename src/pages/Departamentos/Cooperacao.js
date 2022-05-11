@@ -26,7 +26,7 @@ class Cooperacao extends Component {
                 <GoBackButton></GoBackButton>
                 </div>
                 <div className='DepartamentoMain'>
-               <div id="paragrafo">
+               <div id="introduçao">
         
                     <p>
                     Na Lista E acreditamos que a AEFEUP deve servir os estudantes e defender os seus interesses
@@ -55,7 +55,7 @@ class Cooperacao extends Component {
                </div>
         
         
-               <div class = "paragrafo">
+               <div className = "paragrafo">
                         <h2>Recrutamento</h2>
                         <p>
                         Uma Associação dos Estudantes deve ser, precisamente, dos estudantes, e a melhor forma
@@ -84,7 +84,7 @@ class Cooperacao extends Component {
                         </p>
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Estudantes Internacionais</h2>
                         <p>
                         Cada vez há mais estudantes internacionais na nossa Faculdade. Estes para além de
@@ -131,7 +131,7 @@ class Cooperacao extends Component {
                         </p>
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Estudantes de Mobilidade</h2>
                         <p>
                         Os estudantes de mobilidade não são sócios efetivos da AEFEUP, porém deve-lhes ser dada
@@ -164,7 +164,7 @@ class Cooperacao extends Component {
                 </div>
         
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Trabalhadores-Estudantes</h2>
                         <p>
                         Sabemos que as particularidades associadas a este grupo de estudantes são muitas vezes
@@ -185,7 +185,7 @@ class Cooperacao extends Component {
                 </div>
         
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Núcleos e Grupos Académicos</h2>
                         <p>
                         Os núcleos são uma parte essencial da FEUP. Estes são essenciais para desenvolver
@@ -230,7 +230,7 @@ class Cooperacao extends Component {
                     
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>A FEUP não é uma empresa</h2>
                         <p>
                         As faculdades devem funcionar com o principal objetivo de ensinar os seus estudantes, que
@@ -251,7 +251,7 @@ class Cooperacao extends Component {
                     
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Novos Edifícios</h2>
                         <p>
                         A falta de espaço na FEUP é um problema atual e relevante. Com o aumento do número de
@@ -267,7 +267,7 @@ class Cooperacao extends Component {
                     
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Contra a Subida da Propina</h2>
                         <p>
                         Já no nosso programa de 2021 havíamos previsto que “o mais provável é que as propinas
@@ -289,7 +289,7 @@ class Cooperacao extends Component {
                     
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Representação Institucional</h2>
                         <p>
                         Os Estatutos da AEFEUP reconhecem que esta tem, entre outros, por objetivos “Representar,
@@ -309,7 +309,7 @@ class Cooperacao extends Component {
                     
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Política</h2>
                         <p>
                         Consideramos que uma Associação de Estudantes deve promover uma atitude crítica dos
@@ -332,7 +332,7 @@ class Cooperacao extends Component {
                     
                 </div>
         
-                <div class = "paragrafo">
+                <div className = "paragrafo">
                         <h2>Integração</h2>
                         <p>
                         Os estudantes necessitam de estar bem integrados na vida da FEUP, de modo a
