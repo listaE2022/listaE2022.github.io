@@ -17,9 +17,9 @@ class Manifesto extends Component {
     script.async = true;
 
     var script_in_page = document.getElementById("goBackBtn-script");
-    if(script_in_page == null){
-      document.body.appendChild(script);
-    }
+    if(script_in_page != null) script_in_page.remove()
+    document.body.appendChild(script);
+
   }
 
   render(){
@@ -28,7 +28,7 @@ class Manifesto extends Component {
         
           <Header section_name='MANIFESTO'></Header>
           <div className='centerPdfButton'>
-            <a href='https://drive.google.com/u/0/uc?id=1SUUDFKGESk7r9bK8WeTA1ohfj0-kjtRq&export=download'>
+            <a href='https://drive.google.com/u/0/uc?id=1L4oUuoRNMXvvIYAtog7Ntg6G2fG5Wm_j&export=download'>
               <button className="btn btn-outline-primary btn-round pdf-save">
               DOCUMENTO EM PDF 
               

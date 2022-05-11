@@ -42,6 +42,11 @@
 
 .departamento{
   margin-bottom: 0vh;
+  background-color: #CAC5FF;
+}
+.departamento h2{
+  color: #22115F;
+  font-weight: bolder;
 }
 
 #introduçao{
@@ -55,4 +60,8 @@
 .paragrafo{
     padding-top: 5%;
 }
+#last{
+    padding-bottom: 20%;
+}
+
 
