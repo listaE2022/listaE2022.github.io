@@ -142,9 +142,7 @@ function Recreativo() {
         
         </div>       
     
-    
-    </div>
-        </div>
+
   );
 }
 
