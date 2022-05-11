@@ -53,7 +53,6 @@ const navigate = useNavigate();
                         <p>
                             Com o objetivo de estimular ainda mais a criação artística organizaremos variados
                             concursos, nomeadamente:
-                        </p>
                         <br/>
                         <ul>
                             <li>Escrita criativa;</li>
@@ -61,7 +60,7 @@ const navigate = useNavigate();
                             <li>Guitarra (Guitarmageddon: Reborn);</li>    
                             <li>Fotografia;</li>
                             <li>Bandas.</li>
-                        </ul>
+                        </ul></p>
                         <br/>
                         <p>Em todos eles serão dados prémios aos três primeiros classificados.</p>
                         <br/>

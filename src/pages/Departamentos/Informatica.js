@@ -47,7 +47,7 @@ const navigate = useNavigate();
                     <div className="col-sm">
                         <div>
                         <h2>Website AEFEUP</h2>
-                        <ul>
+                        <p><ul>
                             <li>
                             Manter e melhorar o website da AEFEUP, procurando resolver bugs existentes;
                             </li>
@@ -58,7 +58,7 @@ const navigate = useNavigate();
                             <li>
                             Integração do calendário de atividade dos núcleos estudantis da FEUP no website
                             </li>
-                        </ul>
+                        </ul></p>
                         <br/>
                         </div>
                     </div>

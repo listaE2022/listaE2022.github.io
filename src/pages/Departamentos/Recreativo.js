@@ -15,7 +15,7 @@ function Recreativo() {
               </button>
             </div>
       <div className="DepartamentoMain">
-       <div className="paragrafo">
+      <div id="introduçao">
             <p>
             Um estudante não deve dedicar todo o seu tempo ao estudo, pelo que espaços e momentos de convívio
              e lazer também são necessários à sua vida e até à sua função. Uma Associação de Estudantes deve promovê-los,

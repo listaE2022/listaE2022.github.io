@@ -102,7 +102,7 @@ return (
 
        <div>
            <h2>Seleções AEFEUP</h2>
-            <ul id="selecoes_aefeup">
+            <p><ul id="selecoes_aefeup">
                 <li>Garantir mais investimento para as seleções da AEFEUP</li>
                 <li> Ter um membro da direção responsável pelas seleções, que se disponibilize a ajudar
                     sempre que necessário e que mobilize estudantes para os jogos</li>
@@ -117,7 +117,7 @@ return (
                 <li>Promover jantares entre a AE e as equipas</li>
                 <li>Potenciar a criação de novos desportos</li>
                 <li>Divulgar e transmitir os jogos das Seleções AEFEUP via online.</li>
-            </ul>
+            </ul></p>
        </div>
 
        </div>

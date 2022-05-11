@@ -51,17 +51,19 @@
 
 #introduçao{
     padding-top: 10%;
-
 }
 
 #expressa{
     font-size: 200%;    
 }
 .paragrafo{
-    padding-top: 5%;
+    padding-top: 4%;
 }
 #last{
     padding-bottom: 20%;
+}
+p{
+    font-size: 20px;
 }
 
 .backToMain{

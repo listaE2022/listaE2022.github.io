@@ -49,7 +49,7 @@ return (
                             estudantes. É importante compreender as feiras do ponto de vista do estudante e futuro
                             empregado e promover a realização de workshops que ajudem a preparar o mesmo para
                             uma entrevista de emprego. Serão realizadas atividades como:
-                        </p>
+                        
                         <ul>
                             <li>Sessões de networking;</li>
                             <li>Workshops de interesse para a preparação da entrada no mercado de trabalho, tais como:
@@ -60,7 +60,7 @@ return (
                                 </ul>
                             </li>
 
-                        </ul>
+                        </ul></p>
                         </div>
                     </div>
 
@@ -102,11 +102,11 @@ return (
                     <div className="col-sm">
                         <div>
                         <h2>Mestrados, Doutoramentos, Pós Graduações e Bolsas:</h2>
-                        <p>Pretendemos realizar sessões de esclarecimento com o maior número possível de estudantes sobre: </p>   
+                        <p>Pretendemos realizar sessões de esclarecimento com o maior número possível de estudantes sobre:  
                         <ul>
                             <li>Como se estruturam os mestrados, doutoramentos e pós graduações;</li>
                             <li>Quais as bolsas disponíveis e como concorrer a elas.</li>
-                        </ul>                     
+                        </ul></p>                  
                         </div>
                     </div>
             </div>
@@ -150,27 +150,27 @@ return (
                 formações creditadas e certificadas por entidades externas, ou em parceria com os núcleos
                 existentes na FEUP, em ferramentas técnicas ou informáticas, consoante o que for mais
                 vantajoso para a formação dos estudantes, como por exemplo em:
-            </p>
+            
             <ul>
                 <li>Revit;</li>
                 <li>SolidWorks;</li>
                 <li>Java;</li>
                 <li>Python;</li>
                 <li>Excel.</li>
-            </ul>
+            </ul></p>
             <p>Procuraremos sempre a escolha de formações de qualidade, e que abranjam a
                 generalidade dos cursos, a um preço acessível a todos, podendo também ser
                 disponibilizado um subsídio para estudantes bolseiros ou, eventualmente, para a
                 globalidade dos estudantes. Pretende-se, também, promover a realização de sorteios de
                 cursos para promover a participação nos mesmos.
             </p>
-            <p>Pretendemos, inclusivamente, promover a organização de cursos e palestras sobre:</p>
+            <p>Pretendemos, inclusivamente, promover a organização de cursos e palestras sobre:
             <ul>
                 <li>Comunicação em Ciência;</li>
                 <li>Estratégias para Falar em Público;</li>
                 <li>Gestão de Prioridades;</li>
                 <li>Ciência Aberta e aquilo que pode ser alcançado com esse método de estruturação do conhecimento.</li>
-            </ul>
+            </ul></p>
         </div>
         <div className ='paragrafo' id = 'last'>
             <h2>Comissões de Acompanhamento e Conselho Pedagógico</h2>
