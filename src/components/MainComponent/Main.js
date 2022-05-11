@@ -5,7 +5,8 @@ import Home from '../../pages/Home/Home';
 import Manifesto from '../../pages/Manifesto/Manifesto';
 import Programa from '../../pages/Programa/Programa';
 
-import Desporto from '../../pages/Desporto/Desporto';
+import Desporto from '../../pages/Departamentos/Desporto';
+import Recreativo from '../../pages/Departamentos/Recreativo';
 
 const Main = () => {
   return (
@@ -14,6 +15,8 @@ const Main = () => {
       <Route exact path='/manifesto' element={<Manifesto />}></Route>
       <Route exact path='/programa' element={<Programa />}> </Route>
       <Route path="/programa/desporto" element={<Desporto />} /> 
+      <Route path="/programa/recreativo" element={<Recreativo />} /> 
+
     </Routes>
   );
 }

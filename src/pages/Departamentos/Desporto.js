@@ -1,4 +1,4 @@
-import './Desporto.css';
+import './Departamento.css';
 import Header from '../../components/Header/Header';
 function Desporto() {
   return (
