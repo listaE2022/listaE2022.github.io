@@ -8,6 +8,7 @@ import Programa from '../../pages/Programa/Programa';
 import Desporto from '../../pages/Departamentos/Desporto';
 import Recreativo from '../../pages/Departamentos/Recreativo';
 import MAG from '../../pages/Departamentos/MAG';
+import Imagem from '../../pages/Departamentos/Imagem';
 
 const Main = () => {
   return (
@@ -18,6 +19,8 @@ const Main = () => {
       <Route path="/programa/desporto" element={<Desporto />} /> 
       <Route path="/programa/recreativo" element={<Recreativo />} /> 
       <Route path="/programa/mag" element={<MAG />} /> 
+      <Route path="/programa/comunicacao" element={<Imagem />} /> 
+
 
     </Routes>
   );
