@@ -9,6 +9,7 @@ import Desporto from '../../pages/Departamentos/Desporto';
 import Recreativo from '../../pages/Departamentos/Recreativo';
 import MAG from '../../pages/Departamentos/MAG';
 import Imagem from '../../pages/Departamentos/Imagem';
+import CF from '../../pages/Departamentos/CF';
 
 const Main = () => {
   return (
@@ -20,6 +21,8 @@ const Main = () => {
       <Route path="/programa/recreativo" element={<Recreativo />} /> 
       <Route path="/programa/mag" element={<MAG />} /> 
       <Route path="/programa/comunicacao" element={<Imagem />} /> 
+      <Route path="/programa/conselho_fiscal" element={<CF />} /> 
+
 
 
     </Routes>
