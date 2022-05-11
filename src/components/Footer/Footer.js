@@ -17,7 +17,7 @@ function Footer() {
             <div className='col-lg-4 col-md-6 links'>
                 <h3>Links</h3>
                 <ul>
-                <li >
+                <li>
                     <Link className='link' to="/">
                     <FontAwesomeIcon icon={faArrowRight} />
                     Home
@@ -28,6 +28,12 @@ function Footer() {
                     <FontAwesomeIcon icon={faArrowRight} />Manifesto
                     </Link> 
                     </li>
+
+                    <li>
+                    <Link className='link' to="/programa">
+                    <FontAwesomeIcon icon={faArrowRight} />Programa
+                    </Link> 
+                    </li>
                 </ul>
             </div>
             <div className='col-lg-4 col-md-6 contactos'>
@@ -36,7 +42,7 @@ function Footer() {
                     Paranhos, s/n
                     4200-465 Porto</p>
                     <p>
-                    Email: listae@gmail.com
+                   
                 </p>
                 <div className='social-media'>
                 <SocialMedia></SocialMedia>

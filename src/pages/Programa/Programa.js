@@ -16,28 +16,26 @@ import recreativo from '../../images/recreativo.png';
 import pedagogia from '../../images/pedagogia.png';
 import informatica from '../../images/informatica.png';
 import Figure from "../../components/Figure/Figure";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 class Programa extends Component {
-
-  componentDidMount () {
-    const script = document.createElement("script");
-    script.id = "goBackBtn-script";
-    script.src = "./scripts/goBackBtn.js";
-    script.async = true;
-
-    var script_in_page = document.getElementById("goBackBtn-script");
-    if(script_in_page == null){
-      document.body.appendChild(script);
-    }
-
-    
-  }
 
   render(){
         return (
         <div className="Programa">
           <Header section_name='PROGRAMA'></Header>
           <div className="programa-container">
+
+          <div className='centerButtonPdf'>
+            <a href='https://drive.google.com/u/0/uc?id=12-F4zCRxehYrrUlsl1Cpm9VjsvOx3NdT&export=download'>
+              <button className="btn btn-outline-primary btn-round pdf-save">
+              PROGRAMA EM PDF 
+    
+              <FontAwesomeIcon className='pdfIcon' icon={faFilePdf} />
+              </button>
+          </a> 
+          </div>
               <div className="container">
                   <div className="row">
                     <div className="col-lg">

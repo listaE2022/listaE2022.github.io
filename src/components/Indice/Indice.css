@@ -85,10 +85,17 @@
 
 .indiceItem{
     display: block;  
+    font-size: large;
     transition: all .2s;
     text-decoration: none;
 }
 .indiceItem:hover{
+    color: #FFEE70;
+    font-weight: bolder;
+}
+
+.Indice h2{
+    font-weight: bolder;
     color: #22115F;
     font-weight: bolder;
 }
