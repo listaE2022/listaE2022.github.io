@@ -1,11 +1,12 @@
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Component } from 'react';
 import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import GoBackButton from '../../components/GoBackButton';
 import './Departamento.css';
 
 class Cooperacao extends Component {
+   
 
     componentDidMount(){
         const script = document.createElement("script");
@@ -21,7 +22,9 @@ class Cooperacao extends Component {
     render(){
         return (
             <div className="departamento">
-                <Header section_name='Cooperação e Estudantes'></Header>
+                <div className="CooperacaoHeader">
+                <GoBackButton></GoBackButton>
+                </div>
                 <div className='DepartamentoMain'>
                <div id="paragrafo">
         

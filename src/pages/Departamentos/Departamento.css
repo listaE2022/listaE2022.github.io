@@ -64,4 +64,99 @@
     padding-bottom: 20%;
 }
 
+.backToMain{
+  margin-top: 2vh;
+  margin-left: 2vh;
+  color: white;
+  background-color: #22115F;
+  width: 4%;
+  border: none;
+}
 
+.backToMain :hover{
+  color: #9988FF
+}
+
+.MAGHeader{
+  background: #22115F url('../../images/MAG_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn.btn-outline-primary {
+  color: #FFFFFF;
+  font-weight: bold;
+  border-color: #9988FF;
+  border-width: 2px;
+}
+
+.CFHeader{
+  background: #22115F url('../../images/CF_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.RecreativoHeader{
+  background: #22115F url('../../images/recreativo_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.ComunicacaoHeader{
+  background: #22115F url('../../images/comunicacao_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.CooperacaoHeader{
+  background: #22115F url('../../images/cooperacao_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.CulturalHeader{
+  background: #22115F url('../../images/cultural_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.DesportoHeader{
+  background: #22115F url('../../images/desporto_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.InformaticaHeader{
+  background: #22115F url('../../images/informatica_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.LogisticaHeader{
+  background: #22115F url('../../images/logistica_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.PedagogiaHeader{
+  background: #22115F url('../../images/pedagogia_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.AcaoSocialHeader{
+  background: #22115F url('../../images/acao_social_titulo.png') no-repeat center center / auto 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
