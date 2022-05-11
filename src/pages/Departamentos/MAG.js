@@ -27,6 +27,40 @@ function MAG() {
                     </p>
 
 
+                    <br/>
+                    <p>
+                    Verifica-se que uma ampla parte da comunidade estudantil não tem o pleno conhecimento dos seus direitos 
+                    nas Assembleias Gerais. Não são devidamente informados em relação a estas e muitos nem têm o conhecimento de que 
+                    possuem direito de voto. A Lista E compromete-se a difundir amplamente a data, a hora, o local e a ordem de trabalhos da 
+                    Assembleia Geral conforme descrito no Capítulo IV, Secção I, Artigo 25º dos Estatutos da AEFEUP. Para além do mais, 
+                    compromete-se a transmitir as AG’s online em parceria com outros canais da FEUP e garantir que os alunos que estejam a 
+                    assistir a transmissão tenham direito ao voto. Iremos também promover sessões de esclarecimento sobre a importância das 
+                    AG’s na vida dos estudantes.
+                    </p>
+                    <br/>
+                    <p>
+                    Todos os estudantes têm o direito de participar na vida associativa, incluindo o direito de eleger e ser eleito para os corpos 
+                    sociais e o direito de ser nomeado para cargos associativos. No que toca à fiscalização do ato eleitoral para os órgãos sociais 
+                    da AEFEUP, divulgaremos amplamente a documentação necessária para a candidatura, para que os estudantes saibam que têm o direito 
+                    de constituir uma lista e de se candidatar à Direção da AEFEUP, Conselho Fiscal e MAG. Comprometemo-nos a publicar o calendário 
+                    eleitoral o mais atempadamente possível, e a zelar pelo ato eleitoral de forma neutra e democrática, garantindo igualdade de 
+                    circunstâncias. 
+                    </p>
+                    <br/>
+                    <p>
+                    Na elaboração das minutas das atas primará o rigor, tendo em vista a redação de um texto o mais representativo possível da 
+                    discussão ocorrida nas AG’s. A minuta será afixada e difundida o mais brevemente possível, conforme a alínea d) do Artigo 31º, 
+                    Secção II, Capítulo IV dos Estatutos da AEFEUP. A ata, após aprovação, será afixada, publicada e divulgada de forma a chegar a 
+                    todos os sócios da AEFEUP, sendo necessariamente acompanhada de uma versão em inglês. 
+                    </p>
+                    <br/>
+                    <p>
+                    <b>A Lista E, candidata à MAG, compromete-se a rever, aprovar e publicar os Estatutos da AEFEUP </b>, 
+                    tomando a iniciativa de realizar Assembleias Gerais Extraordinárias para esse efeito. Iremos também propor alterações ao regimento 
+                    da Assembleia Geral de modo a promover todas as problemáticas acima referidas, tais como: abrir uma segunda ronda de intervenções nas AGs, 
+                    de forma a possibilitar a resposta a intervenções de membros da Assembleia.
+                    </p>
+                    <br/>
             </div>
             <div className="paragrafo">
                     <p>
