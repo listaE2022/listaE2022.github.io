@@ -1,8 +1,8 @@
-import './Departamento.css';
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Component } from 'react';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 function Imagem() {
   return (
     <div className='departamento'>
@@ -16,7 +16,7 @@ function Imagem() {
 
        </div>
       
-        <div class="paragrafo" id = "last">
+        <div className="paragrafo" id = "last">
             <p>A Lista E reconhece a importância de que seja usada uma comunicação coesa, concisa e transparente entre a Associação de Estudantes 
                 e os restantes membros da comunidade FEUP. Esta deverá concordar com a identidade visual da AEFEUP e garantir ser percetível por 
                 todos os estudantes. Deste modo, queremos dar a conhecer o trabalho realizado ao nível da preparação das atividades, da produção de 

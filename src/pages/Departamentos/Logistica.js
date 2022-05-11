@@ -8,7 +8,7 @@ function Logistica() {
     <div className='departamento'>
         <Header section_name='LOGÍSTICA'></Header>
         <div className="ManifestoMain">
-            <div class="paragrafo">
+            <div className ="paragrafo">
 
             <p>
             Uma associação de estudantes deve, sobretudo, servir os estudantes. A AEFEUP não é exceção. Fazer isso em todas as suas vertentes, 
@@ -19,7 +19,7 @@ function Logistica() {
             </p>
 
             </div>
-            <div class="paragrafo">
+            <div className ="paragrafo">
                     <p>
                     No que toca aos eventos, asseguraremos a limpeza e segurança do espaço onde decorrerem, assim como todo o processo de montagem 
                     e desmontagem do material necessário aos mesmos. Enquanto ainda vigorarem normas relativas à pandemia de Covid-19, garantiremos

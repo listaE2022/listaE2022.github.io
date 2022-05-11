@@ -31,9 +31,9 @@ function Pedagogia() {
 
        </div>
 
-       <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+       <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Feira de Emprego</h2>
             
@@ -57,7 +57,7 @@ function Pedagogia() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Feira de Investigação</h2>
                         <p>
@@ -73,9 +73,9 @@ function Pedagogia() {
             </div>
         </div>
 
-        <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+        <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Bolsas de Emprego, Estágios de Verão e Oportunidades de Emprego</h2>
             
@@ -92,7 +92,7 @@ function Pedagogia() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Mestrados, Doutoramentos, Pós Graduações e Bolsas:</h2>
                         <p>Pretendemos realizar sessões de esclarecimento com o maior número possível de estudantes sobre: </p>   
@@ -104,9 +104,9 @@ function Pedagogia() {
                     </div>
             </div>
         </div>
-        <div class="container">
-           <div class="row">
-                    <div class="col-sm">
+        <div className="container">
+           <div className="row">
+                    <div className="col-sm">
                       <div>
                       <h2>Jornal da Associação de Estudantes, com Agenda Cultural</h2>
             
@@ -118,7 +118,7 @@ function Pedagogia() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div>
                         <h2>Exposições e Teatro no Espaço da AE</h2>
                         <p>
@@ -136,7 +136,7 @@ function Pedagogia() {
                     </div>
             </div>
         </div>
-        <div className='paragrafo'>
+        <div className ='paragrafo'>
             <h2>Formação Contínua:</h2>
             <p>Disponibilizaremos cursos variados de línguas e a preços acessíveis, uma vez que são uma
                 ferramenta muito importante e valorizada pelo mercado de trabalho. Organizaremos
@@ -165,7 +165,7 @@ function Pedagogia() {
                 <li>Ciência Aberta e aquilo que pode ser alcançado com esse método de estruturação do conhecimento.</li>
             </ul>
         </div>
-        <div className='paragrafo' id = 'last'>
+        <div className ='paragrafo' id = 'last'>
             <h2>Comissões de Acompanhamento e Conselho Pedagógico</h2>
             <p>A desintegração dos mestrados integrados, tal como a consequente subida de propina de
                 mestrado, revelou-se caótica e introduziu novos problemas na vida de muitos estudantes.

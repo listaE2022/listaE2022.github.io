@@ -8,7 +8,7 @@ function CF() {
     <div className='departamento'>
         <Header section_name='Conselho Fiscal'></Header>
         <div className="DepartamentoMain">
-            <div class="paragrafo">
+            <div className="paragrafo">
 
             <p>
               O Conselho Fiscal tem como função a fiscalização das atividades administrativas realizadas pela AEFEUP. Este órgão tem o 
@@ -17,7 +17,7 @@ function CF() {
             </p>
 
             </div>
-            <div class="paragrafo">
+            <div className="paragrafo">
                     <p>
                     Dos Estatutos da AEFEUP consta que o Conselho Fiscal tem como principais competências “elaborar e aprovar em reunião do 
                     Conselho Fiscal, o Regulamento Interno (...)” e “fiscalizar todas as atividades financeiras da AEFEUP (...)” que deve resultar 
