@@ -1,6 +1,15 @@
 .backToMain{
     margin-top: 2vh;
     margin-left: 2vh;
+    color: white;
+    background-color: #22115F;
+    width: 4%;
+    border: none;
+}
+
+.backToMain :hover{
+    color: #9988FF
+    
 }
 
 .ManifestoHeader{

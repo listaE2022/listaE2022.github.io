@@ -7,6 +7,7 @@ import Programa from '../../pages/Programa/Programa';
 
 import Desporto from '../../pages/Departamentos/Desporto';
 import Recreativo from '../../pages/Departamentos/Recreativo';
+import MAG from '../../pages/Departamentos/MAG';
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
       <Route exact path='/programa' element={<Programa />}> </Route>
       <Route path="/programa/desporto" element={<Desporto />} /> 
       <Route path="/programa/recreativo" element={<Recreativo />} /> 
+      <Route path="/programa/mag" element={<MAG />} /> 
 
     </Routes>
   );
