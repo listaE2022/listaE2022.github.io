@@ -14,6 +14,7 @@ import Logistica from '../../pages/Departamentos/Logistica';
 import Informatica from '../../pages/Departamentos/Informatica';
 import Cultural from '../../pages/Departamentos/Cultural';
 import Pedagogia from '../../pages/Departamentos/Pedagogia';
+import AcaoSocial from '../../pages/Departamentos/Acao_social';
 
 const Main = () => {
   return (
@@ -30,6 +31,8 @@ const Main = () => {
       <Route path="/programa/informatica" element={<Informatica />} /> 
       <Route path="/programa/cultural" element={<Cultural />} /> 
       <Route path="/programa/pedagogia" element={<Pedagogia />} /> 
+      <Route path="/programa/acao_social" element={<AcaoSocial />} /> 
+
 
 
 

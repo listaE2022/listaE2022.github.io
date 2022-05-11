@@ -14,7 +14,6 @@ function Recreativo() {
              aos estudantes momentos inesquecíveis que sempre levarão na memória.
             <br/>
             <b>A lista E propõe:</b>
-
             </p>
 
        </div>
@@ -141,7 +140,6 @@ function Recreativo() {
     </div>
         
         </div>       
-    
 
   );
 }
