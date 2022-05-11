@@ -61,22 +61,6 @@ class Programa extends Component {
 
                 <div className="row">
                   <div className="col-lg">
-                    <Figure image={saude} path="/programa/saude"></Figure>
-                  </div>
-
-                  <div className="col-lg">
-                    <Figure image={acao_social} path="/programa/acao_social"></Figure>
-                  </div>
-                  <div className="col-lg">
-                    <Figure image={ambiente} path="/programa/ambiente"></Figure>
-                  </div>
-                    
-                </div>
-                    
-
-
-                <div className="row">
-                  <div className="col-lg">
                     <Figure image={comunicacao} path="/programa/comunicacao"></Figure>
                   </div>
                   <div className="col-lg">
@@ -102,10 +86,12 @@ class Programa extends Component {
                 </div>
 
                 <div className="row">
-                  <div className="col-lg" class="pedagogia">
+                  <div className="col-lg">
                     <Figure image={pedagogia} path="/programa/pedagogia"></Figure>
                   </div>
-
+                  <div className="col-lg">
+                    <Figure image={acao_social} path="/programa/acao_social"></Figure>
+                  </div>
                 </div>
 
               </div>
