@@ -7,8 +7,8 @@ function Cultural() {
   return (
     <div className='departamento'>
         <Header section_name='CULTURAL'></Header>
-        <div className="ManifestoMain">
-       <div id="introduçao">
+        <div className="DepartamentoMain">
+        <div id="introduçao">
             <p>
                 Consideramos a cultura algo essencial para a educação de todos. Cabe, também, à AEFEUP
                 promovê-la junto dos estudantes da FEUP. O acesso à mesma, seja como criador ou
@@ -47,7 +47,6 @@ function Cultural() {
                         <p>
                             Com o objetivo de estimular ainda mais a criação artística organizaremos variados
                             concursos, nomeadamente:
-                        </p>
                         <br/>
                         <ul>
                             <li>Escrita criativa;</li>
@@ -55,7 +54,7 @@ function Cultural() {
                             <li>Guitarra (Guitarmageddon: Reborn);</li>    
                             <li>Fotografia;</li>
                             <li>Bandas.</li>
-                        </ul>
+                        </ul></p>
                         <br/>
                         <p>Em todos eles serão dados prémios aos três primeiros classificados.</p>
                         <br/>

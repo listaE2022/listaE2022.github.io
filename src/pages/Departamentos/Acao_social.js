@@ -7,7 +7,7 @@ function AcaoSocial() {
   return (
     <div className='departamento'>
         <Header section_name='AÇÃO SOCIAL, SAÚDE E AMBIENTE'></Header>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>A AEFEUP, como a vemos, tem de ser uma associação próxima e tomar conhecimento dos
                 reais problemas e anseios dos estudantes, levando-os à direção da FEUP se necessário
@@ -71,7 +71,7 @@ function AcaoSocial() {
                       <div>
                       <h2>Acessibilidade</h2>
             
-                        <p>A nível de acessibilidade pretendemos apresentar à FEUP:</p>
+                        <p>A nível de acessibilidade pretendemos apresentar à FEUP:
                             <ul>
                                 <li>Envolver a comunidade estudantil e docente na resolução dos problemas de
                                     acessibilidade nas faculdades, realizando inquéritos sobre a matéria;</li>
@@ -80,19 +80,19 @@ function AcaoSocial() {
                                 <li>Colocação de sinalética nas escadas;</li>
                                 <li>Colocação de sinalética mais legível e acessível nos corredores para identificação de
                                     locais, incluindo o nome das salas em braille, por exemplo.</li>
-                            </ul>
+                            </ul></p>
                         </div>
                     </div>
 
                     <div className="col-sm">
                         <div>
                         <h2>Ação Social</h2>
-                        <p>Neste campo, propomos:</p>  
+                        <p>Neste campo, propomos: 
                         <ul>
                             <li>Recolha de roupa, alimentos, eletrónicos, brinquedos;</li>
                             <li>Realização da feira de voluntariado;</li>
                             <li>Realização do dia da cidadania.  </li>
-                        </ul>                     
+                        </ul>  </p>                    
                         </div>
                     </div>
             </div>
@@ -102,7 +102,7 @@ function AcaoSocial() {
            <div className="row">
                     <div classNameName="col-sm">
                       <div>            
-                        <p>Propostas a serem apresentadas à FEUP:</p>
+                        <p>Propostas a serem apresentadas à FEUP:
                             <ul>
                                 <li>Facilitar o acesso e aumentar o número de profissionais afetos ao serviço;</li>
                                 <li>Fazer inquéritos aos alunos relativamente às consultas de psicologia da FEUP para
@@ -110,12 +110,12 @@ function AcaoSocial() {
                                 <li>Insistir na divulgação destes serviços e de como colocá-los à distância de um clique
                                     por parte dos estudantes que dele necessitem.</li>
                                 
-                            </ul>
+                            </ul></p>
                         </div>
                     </div>
                     <div className="col-sm">
                         <div>
-                        <p>Propostas a executar pela AEFEUP:</p>  
+                        <p>Propostas a executar pela AEFEUP:  
                         <ul>
                             <li>Promoção do setembro amarelo, mês de consciencialização da saúde mental, com
                                 criação de workshops de mindfulness e yoga;</li>
@@ -124,7 +124,7 @@ function AcaoSocial() {
                                 faculdade, assim como promoção da tal pelas redes sociais;  </li>
                             <li>Criar um espaço de partilha para estudantes com o apoio de um profissional de 
                                 saúde (psicólogo e/ou psiquiatra), realizar parceria com os Serviços de Ação Social da UP;</li>
-                        </ul>                     
+                        </ul></p>                    
                         </div>
                     </div>
             </div>
@@ -134,18 +134,18 @@ function AcaoSocial() {
            <div className="row">
                     <div className="col-sm">
                       <div>            
-                        <p>Propostas a serem apresentadas à FEUP:</p>
+                        <p>Propostas a serem apresentadas à FEUP:
                             <ul>
                                 <li>Instalação de bebedouros pelo edifício B, possivelmente nas entradas das casas de banho;</li>
                                 <li>Criação de mais espaços para refeição, nomeadamente algum espaço não
                                     associado a algum bar, aberto para estudantes que trazem comida de casa;</li>
                                 <li>Pedir mais microondas para aquecer a comida no edifício B e departamentos.</li>  
-                            </ul>
+                            </ul></p>
                         </div>
                     </div>
                     <div className="col-sm">
                         <div>
-                        <p>Propostas a executar pela AEFEUP:</p>  
+                        <p>Propostas a executar pela AEFEUP: 
                         <ul>
                             <li>Criação de um FEUP Veggie Day em parceria com restaurantes vegetarianos do Porto;</li>
                             <li>Adição de opções veganas e vegetarianas nas máquinas de venda automática e bar da AEFEUP;</li>
@@ -153,7 +153,7 @@ function AcaoSocial() {
                             <li>Disponibilizar mais micro-ondas na Associação de estudantes, sendo a sua limpeza assegurada pelo utilizador, 
                                 que tem à sua disposição material para tal;  </li>
                             <li>Promover a criação de workshops de nutrição e de partilha de receitas saudáveis.;</li>
-                        </ul>                     
+                        </ul></p>                      
                         </div>
                     </div>
             </div>
@@ -163,7 +163,7 @@ function AcaoSocial() {
            <div className="row">
                     <div className="col-sm">
                       <div>            
-                        <p>Propostas a serem apresentadas à FEUP:</p>
+                        <p>Propostas a serem apresentadas à FEUP:
                             <ul>
                                 <li>Disponibilizar mais cinzeiros;</li>
                                 <li>Colocar caixotes do lixo com separadores para reciclagem nas salas e garantir que
@@ -171,12 +171,12 @@ function AcaoSocial() {
                                 <li>Instalação de máquinas de água filtrada na FEUP (por exemplo junto às máquinas de
                                     café já existentes);</li>  
                                 <li>Pugnar para que todos os anos seja realizado um relatório de sustentabilidade da FEUP.</li>
-                            </ul>
+                            </ul></p>
                         </div>
                     </div>
                     <div className="col-sm">
                         <div>
-                        <p>Propostas a executar pela AEFEUP:</p>  
+                        <p>Propostas a executar pela AEFEUP:
                         <ul>
                             <li>Implantação da “Semana do Ambiente” - com palestras, conversas, partilha de
                                 informações;</li>
@@ -200,14 +200,14 @@ function AcaoSocial() {
                             <li>Criar e promover atividades de voluntariado para apanhar beatas, plantar árvores e
                                 outras atividades que visem promover um ambiente mais limpo.
                             </li>
-                        </ul>                     
+                        </ul></p>                       
                         </div>
                     </div>
             </div>
         </div>
         <div className='paragrafo' id = "last">
             <h2>Saúde Física</h2>
-            <p>Propostas a executar pela AEFEUP:</p>
+            <p>Propostas a executar pela AEFEUP:
             <ul>
                 <li>Oferta de material de higiene menstrual de forma gratuita, nas instalações da AEFEUP;</li>
                 <li>Disponibilização de preservativos gratuitos nas instalações da AEFEUP;</li>
@@ -231,7 +231,7 @@ function AcaoSocial() {
                     de Alimentação;</li>
                 <li>Campanhas de esclarecimentos sobre os serviços médicos dos SASUP;</li>
                 <li>Criação de campanhas de esclarecimento sobre os benefícios do exercício e da saúde física.</li>
-            </ul>
+            </ul></p>
         </div>
        
     

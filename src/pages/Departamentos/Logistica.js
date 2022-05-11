@@ -7,8 +7,8 @@ function Logistica() {
   return (
     <div className='departamento'>
         <Header section_name='LOGÍSTICA'></Header>
-        <div className="ManifestoMain">
-            <div className ="paragrafo">
+        <div className="DepartamentoMain">
+            <div id="introduçao">
 
             <p>
             Uma associação de estudantes deve, sobretudo, servir os estudantes. A AEFEUP não é exceção. Fazer isso em todas as suas vertentes, 

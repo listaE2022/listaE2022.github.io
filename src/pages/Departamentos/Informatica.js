@@ -7,7 +7,7 @@ function Informatica() {
   return (
     <div className='departamento'>
         <Header section_name='INFORMATICA'></Header>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>
             Consideramos que, no contexto atual, é de grande relevância a manutenção de tecnologias de informação próprias para o funcionamento 
@@ -40,7 +40,7 @@ function Informatica() {
                     <div className="col-sm">
                         <div>
                         <h2>Website AEFEUP</h2>
-                        <ul>
+                        <p><ul>
                             <li>
                             Manter e melhorar o website da AEFEUP, procurando resolver bugs existentes;
                             </li>
@@ -51,7 +51,7 @@ function Informatica() {
                             <li>
                             Integração do calendário de atividade dos núcleos estudantis da FEUP no website
                             </li>
-                        </ul>
+                        </ul></p>
                         <br/>
                         </div>
                     </div>

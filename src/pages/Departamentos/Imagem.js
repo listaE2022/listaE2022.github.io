@@ -7,7 +7,7 @@ function Imagem() {
   return (
     <div className='departamento'>
         <Header section_name='IMAGEM'></Header>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>Acreditamos que a comunicação deve estabelecer uma ponte entre os alunos e órgãos sociais da FEUP e alcançar 
                 tanto a comunidade académica quanto parceiros externos e grupos de interesse, procurando, simultaneamente, inovar na forma como 
