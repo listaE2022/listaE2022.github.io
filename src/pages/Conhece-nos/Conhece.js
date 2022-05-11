@@ -10,7 +10,7 @@ function Conhece() {
   return (
     <div className="ConheceMain">
 
-        <Header section_name='CONHECE-NOS'></Header>
+        
         <div className='Conhece'>
              <h2 id="apresentacao_title">Apresentação da Lista 2022</h2>
       
