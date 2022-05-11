@@ -12,11 +12,14 @@ class Manifesto extends Component {
 
   componentDidMount () {
     const script = document.createElement("script");
-
+    script.id = "goBackBtn-script";
     script.src = "./scripts/goBackBtn.js";
     script.async = true;
 
-    document.body.appendChild(script);
+    var script_in_page = document.getElementById("goBackBtn-script");
+    if(script_in_page == null){
+      document.body.appendChild(script);
+    }
   }
 
   render(){

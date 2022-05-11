@@ -1,0 +1,45 @@
+.scrollToTopBtn {
+    /* same general styles as before */
+    
+    /* place it at the bottom-right corner */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  
+    /* keep it at the top of everything else */
+    z-index: 100;
+  
+    /* hide with opacity */
+    opacity: 0;
+  
+    /* also add a translate effect */
+    transform: translateY(100px);
+  
+    /* and a transition */
+    transition: all .5s ease
+  }
+  
+  .showBtn {
+    opacity: 1;
+    transform: translateY(0)
+  }
+
+  .paragrafo{
+    padding-top: 2vh;
+  }
+
+.DepartamentoMain{
+    margin: auto;
+    text-justify: auto;
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 10vh;
+}
+
+#selecoes_aefeup{
+  margin-bottom: 1vh;
+}
+
+.departamento{
+  margin-bottom: 0vh;
+}
