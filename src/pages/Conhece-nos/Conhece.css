@@ -1,0 +1,23 @@
+.Conhece{
+    margin: auto;
+    text-justify: auto;
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 10vh;
+}
+
+#apresentacao_title{
+    margin-top: 2vh;
+    text-decoration: underline;
+    text-decoration-color: #FFEE70;
+    text-decoration-thickness: 3px;
+    
+}
+
+#row{
+    background-color: #22115F;
+}
+
+#container{
+    text-align: center;
+}

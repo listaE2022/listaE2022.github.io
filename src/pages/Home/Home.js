@@ -11,13 +11,31 @@ function Home() {
         
         <div className='navigation'>
         <h1 id='slogan'>Expressa-te: É hora de mudar!</h1>
-          <Link className='manifesto' to="/manifesto">
-          <Button variant="btn btn-outline-primary btn-round">O Nosso Manifesto</Button>
-          </Link> 
 
-          <Link className='program' to="/programa">
-          <Button variant="btn btn-outline-primary btn-round">O Nosso Programa</Button>
-          </Link> 
+          <div className="container">
+            <div className="row">
+              <div className='col-sm'>
+                <Link className='manifesto' to="/manifesto">
+                <Button variant="btn btn-outline-primary btn-round">O Nosso Manifesto</Button>
+                </Link> 
+              </div>
+
+              <div className='col-sm'>
+                <Link className='program' to="/programa">
+               <Button variant="btn btn-outline-primary btn-round">O Nosso Programa</Button>
+              </Link> 
+              </div>
+              <div className='col-sm'>
+                 <Link className='program' to="/conhece_nos">
+                <Button variant="btn btn-outline-primary btn-round">Conhece-nos</Button>
+                </Link> 
+              </div>
+              
+
+            </div>
+
+          </div>
+        
          </div>
          <SocialMedia></SocialMedia>
       </div>

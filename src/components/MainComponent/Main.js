@@ -11,6 +11,7 @@ import MAG from '../../pages/Departamentos/MAG';
 import Imagem from '../../pages/Departamentos/Imagem';
 import CF from '../../pages/Departamentos/CF';
 import Cooperacao from '../../pages/Departamentos/Cooperacao';
+import Conhece from '../../pages/Conhece-nos/Conhece';
 
 const Main = () => {
   return (
@@ -18,13 +19,14 @@ const Main = () => {
       <Route exact path='/' element={<Home />}></Route>
       <Route exact path='/manifesto' element={<Manifesto />}></Route>
       <Route exact path='/programa' element={<Programa />}> </Route>
+      <Route exact path='/conhece_nos' element={<Conhece />}></Route>
       <Route path="/programa/desporto" element={<Desporto />} /> 
       <Route path="/programa/recreativo" element={<Recreativo />} /> 
       <Route path="/programa/mag" element={<MAG />} /> 
       <Route path="/programa/comunicacao" element={<Imagem />} /> 
       <Route path="/programa/conselho_fiscal" element={<CF />} /> 
       <Route path="/programa/cooperacao_e_estudantes" element={<Cooperacao />} /> 
-
+      
 
 
     </Routes>

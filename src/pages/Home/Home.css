@@ -6,11 +6,15 @@
     flex-direction: column;
 }
 
+.container{
+    width: 40%;
+}
+
 
 #slogan{
     color: white;
     font-weight: bolder;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
     font-size: 50vi;
 }
 

@@ -12,7 +12,7 @@ function Footer() {
         <div className='row footer-inner'>
             <div className='col-lg-4 col-md-6 lista-desc'>
                 <h3>Lista E</h3>
-                <p>A Lista E compromete-se a defender os direitos dos estudantes! Escutar os Estudantes! Elevar Engenharia!</p>
+                <p>A Lista E compromete-se a defender os direitos dos estudantes! Expressa-te: É hora de mudar!</p>
             </div>
             <div className='col-lg-4 col-md-6 links'>
                 <h3>Links</h3>
