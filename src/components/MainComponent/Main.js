@@ -10,6 +10,11 @@ import Recreativo from '../../pages/Departamentos/Recreativo';
 import MAG from '../../pages/Departamentos/MAG';
 import Imagem from '../../pages/Departamentos/Imagem';
 import CF from '../../pages/Departamentos/CF';
+import Logistica from '../../pages/Departamentos/Logistica';
+import Informatica from '../../pages/Departamentos/Informatica';
+import Cultural from '../../pages/Departamentos/Cultural';
+import Pedagogia from '../../pages/Departamentos/Pedagogia';
+import AcaoSocial from '../../pages/Departamentos/Acao_social';
 import Cooperacao from '../../pages/Departamentos/Cooperacao';
 import Conhece from '../../pages/Conhece-nos/Conhece';
 
@@ -25,6 +30,16 @@ const Main = () => {
       <Route path="/programa/mag" element={<MAG />} /> 
       <Route path="/programa/comunicacao" element={<Imagem />} /> 
       <Route path="/programa/conselho_fiscal" element={<CF />} /> 
+      <Route path="/programa/logistica" element={<Logistica />} /> 
+      <Route path="/programa/informatica" element={<Informatica />} /> 
+      <Route path="/programa/cultural" element={<Cultural />} /> 
+      <Route path="/programa/pedagogia" element={<Pedagogia />} /> 
+      <Route path="/programa/acao_social" element={<AcaoSocial />} /> 
+
+
+
+
+
       <Route path="/programa/cooperacao_e_estudantes" element={<Cooperacao />} /> 
       
 

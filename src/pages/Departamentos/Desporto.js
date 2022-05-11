@@ -24,9 +24,9 @@ function Desporto() {
 
             </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
+            <div className="co ntainer">
+                <div className="ro w">
+                    <div className="co l-sm">
                         <div>
                             <h2>Torneios de E-Sports</h2>
                                 <p>
@@ -41,7 +41,7 @@ function Desporto() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="co l-sm">
                     <div id="ensino-com-dignidade">
                         <h2>Torneios de desportos individuais e de equipa</h2>
                             <p>
@@ -67,8 +67,8 @@ function Desporto() {
 
                 </div>
 
-                <div class="row">
-                    <div class="col-sm">
+                <div className="ro w">
+                    <div className="co l-sm">
                         <div>
                             <h2 id="ensino-democratico">Aulas individuais</h2>
                                 <p>
@@ -78,7 +78,7 @@ function Desporto() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
+                    <div className="co l-sm">
                         <div>
                             <h2 id="ensino-democratico">Corridas de Orientação</h2>
                         <p>
@@ -95,7 +95,7 @@ function Desporto() {
 
        <div>
            <h2>Seleções AEFEUP</h2>
-            <ul id="selecoes_aefeup">
+            <p><ul id="selecoes_aefeup">
                 <li>Garantir mais investimento para as seleções da AEFEUP</li>
                 <li> Ter um membro da direção responsável pelas seleções, que se disponibilize a ajudar
                     sempre que necessário e que mobilize estudantes para os jogos</li>
@@ -110,12 +110,12 @@ function Desporto() {
                 <li>Promover jantares entre a AE e as equipas</li>
                 <li>Potenciar a criação de novos desportos</li>
                 <li>Divulgar e transmitir os jogos das Seleções AEFEUP via online.</li>
-            </ul>
+            </ul></p>
        </div>
 
        </div>
 
-       <button id='scrollToTopBtn' className='scrollToTopBtn'>
+       <button id='scrollToTopBtn' className ='scrollToTopBtn'>
           <FontAwesomeIcon icon={faArrowUp} size="lg" />
         </button>
 

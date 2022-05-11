@@ -8,7 +8,7 @@ function CF() {
     <div className='departamento'>
         <Header section_name='Conselho Fiscal'></Header>
         <div className="DepartamentoMain">
-            <div class="paragrafo">
+        <div id="introduçao">
 
             <p>
               O Conselho Fiscal tem como função a fiscalização das atividades administrativas realizadas pela AEFEUP. Este órgão tem o 
@@ -17,7 +17,7 @@ function CF() {
             </p>
 
             </div>
-            <div class="paragrafo">
+            <div className="paragrafo">
                     <p>
                     Dos Estatutos da AEFEUP consta que o Conselho Fiscal tem como principais competências “elaborar e aprovar em reunião do 
                     Conselho Fiscal, o Regulamento Interno (...)” e “fiscalizar todas as atividades financeiras da AEFEUP (...)” que deve resultar 
@@ -38,12 +38,13 @@ function CF() {
                     <br/>
                     <p>
                     Deste modo, a candidatura da Lista E ao Conselho Fiscal da AEFEUP assenta-se nos seguintes três pilares:
-                    </p>
+                    
                     <ul>
                         <li>Assegurar um correto, responsável, rigoroso e imparcial escrutínio contabilístico da Direção da AEFEUP;</li>
                         <li>Garantir a transparência das suas operações, assim como promover a divulgação das posições tomadas em matérias de interesse geral dos estudantes;</li>
                         <li>Fornecer documentação acessível do trabalho do órgão.</li>
                     </ul>
+                    </p>
                     <br/>
                     <p>
                     A AEFEUP representa os estudantes da maior faculdade integrada na Federação Académica do Porto, e uma das maiores do país.<b> É 

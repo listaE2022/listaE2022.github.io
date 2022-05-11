@@ -8,7 +8,7 @@ function Recreativo() {
     <div className='departamento'>
         <Header section_name='RECREATIVO'></Header>
       <div className="DepartamentoMain">
-       <div className="paragrafo">
+      <div id="introduçao">
             <p>
             Um estudante não deve dedicar todo o seu tempo ao estudo, pelo que espaços e momentos de convívio
              e lazer também são necessários à sua vida e até à sua função. Uma Associação de Estudantes deve promovê-los,
@@ -17,15 +17,14 @@ function Recreativo() {
              aos estudantes momentos inesquecíveis que sempre levarão na memória.
             <br/>
             <b>A lista E propõe:</b>
-
             </p>
 
        </div>
 
-       <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="paragrafo">
+       <div className="container">
+                <div className="row">
+                    <div className="col-sm">
+                        <div className="paragrafo">
                             <h2>FEUPcaffé</h2>
                                     <ul>
                                         <li> Realização de FEUPcaffé’s com a maior regularidade possível, abrangendo gostos musicais diferentes,
@@ -51,8 +50,8 @@ function Recreativo() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
-                        <div class="paragrafo">
+                    <div className="col-sm">
+                        <div className="paragrafo">
                                 <h2>Arraial d’Engenharia</h2>
                                 <ul>
                                     <li>
@@ -75,9 +74,9 @@ function Recreativo() {
 
                 </div>
 
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="paragrafo">
+                <div className="row">
+                    <div className="col-sm">
+                        <div className="paragrafo">
                             <h2>Noites e Tardes Temáticas</h2>
                             <p>Para além dos já referidos FEUPcaffé’s, organizaremos eventos regulares de convívio, 
                                 como game nights, jogos de quizz, karaokes, espetáculos de comédia, entre outros. </p>
@@ -95,8 +94,8 @@ function Recreativo() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
-                        <div class="paragrafo">
+                    <div className="col-sm">
+                        <div className="paragrafo">
                             <h2>
                             Churrascos e Sunsets
                             </h2>
@@ -114,9 +113,9 @@ function Recreativo() {
 
                 </div>
 
-                <div class="row">
-                    <div class="col-sm">
-                        <div class = "paragrafo">
+                <div className="row">
+                    <div className="col-sm">
+                        <div className = "paragrafo">
                             <h2>Jogos de Tabuleiro</h2>
                             <p>Disponibilizaremos jogos de tabuleiro e cartas, para requisição e uso no espaço da AEFEUP, sem qualquer custo para os estudantes. 
                                 Caso haja um grande interesse por parte dos estudantes em algum jogo, poderá ser organizado torneio do mesmo, atribuindo prémios 
@@ -126,8 +125,8 @@ function Recreativo() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
-                        <div class = "paragrafo">
+                    <div className="col-sm">
+                        <div className = "paragrafo">
                             <h2>Torneios </h2>
                             <p>
                             Uma competição amigável é uma excelente forma de socialização. Assim organizaremos alguns torneios como de beer pong, sueca ou 
@@ -139,9 +138,9 @@ function Recreativo() {
 
                 </div>
 
-                <div class="row">
-                    <div class="col-sm">
-                        <div class = "paragrafo">
+                <div className="row">
+                    <div className="col-sm">
+                        <div className = "paragrafo">
                             <h2>
                             Transmissão de Eventos Desportivos
                             </h2>
@@ -154,8 +153,8 @@ function Recreativo() {
                         </div>
                     </div>
 
-                    <div class="col-sm">
-                        <div class = "paragrafo">
+                    <div className="col-sm">
+                        <div className = "paragrafo">
                             <h2>Peddy Paper e Rally Tascas</h2>
                             <p>
                             Realizaremos, no início do ano, um Peddy Paper pela baixa do Porto, dando a conhecer a cidade aos estudantes da FEUP que cá chegam, 
@@ -169,7 +168,7 @@ function Recreativo() {
 
              </div>
     
-        <div class = "paragrafo">
+        <div className = "paragrafo">
             <h2>Viagens da AEFEUP</h2>
             <p>
             Organizaremos viagens de fins de semana, ou durante as interrupções letivas, a preços acessíveis aos estudantes. Consideramos que são 

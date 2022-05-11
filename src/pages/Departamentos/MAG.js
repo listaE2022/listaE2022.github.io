@@ -9,7 +9,7 @@ function MAG() {
     <div className='departamento'>
         <Header section_name='MESA DA ASSEMBLEIA GERAL'></Header>
         <div className="DepartamentoMain">
-            <div className="paragrafo">
+                <div id="introduçao">
                     <p>
                     A Mesa da Assembleia Geral, sendo o órgão que preside a Assembleia Geral, órgão máximo
                 deliberativo da Associação de Estudantes, tem um papel essencial, uma vez que é
