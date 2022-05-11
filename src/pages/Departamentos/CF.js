@@ -1,20 +1,26 @@
 import './Departamento.css';
-import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-function CF() {
-  return (
-    <div className='departamento'>
-        <Header section_name='Conselho Fiscal'></Header>
-        <div className="DepartamentoMain">
-        <div id="introduçao">
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
-            <p>
-              O Conselho Fiscal tem como função a fiscalização das atividades administrativas realizadas pela AEFEUP. Este órgão tem o 
-              dever de escrutinar, regularmente e de forma imparcial, os orçamentos, planos de atividades e relatórios de contas apresentados 
-              pela Direção da AEFEUP, de modo a assegurar a transparência de todos os processos contabilísticos.
-            </p>
+function CF() {
+  const navigate = useNavigate();
+    return (
+      <div className='departamento'>
+          <div className="CFHeader">
+              <button className='backToMain' onClick={()=> navigate(-1)}>
+                      <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+              </button>
+            </div>
+          <div className="DepartamentoMain">
+              <div class="paragrafo">
+
+              <p>
+                O Conselho Fiscal tem como função a fiscalização das atividades administrativas realizadas pela AEFEUP. Este órgão tem o 
+                dever de escrutinar, regularmente e de forma imparcial, os orçamentos, planos de atividades e relatórios de contas apresentados 
+                pela Direção da AEFEUP, de modo a assegurar a transparência de todos os processos contabilísticos.
+              </p>
 
             </div>
             <div className="paragrafo">
@@ -66,13 +72,13 @@ function CF() {
         
         </div>
 
-        <button id='scrollToTopBtn' className='scrollToTopBtn'>
-          <FontAwesomeIcon icon={faArrowUp} size="lg" />
-        </button>
+          <button id='scrollToTopBtn' className='scrollToTopBtn'>
+            <FontAwesomeIcon icon={faArrowUp} size="lg" />
+          </button>
 
-        <Footer></Footer>
-    </div>
-  );
+          <Footer></Footer>
+      </div>
+    );
 }
 
 export default CF;

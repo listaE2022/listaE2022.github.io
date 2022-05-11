@@ -2,12 +2,19 @@ import './Departamento.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 function AcaoSocial() {
-  return (
+const navigate = useNavigate();
+return (
     <div className='departamento'>
-        <Header section_name='AÇÃO SOCIAL, SAÚDE E AMBIENTE'></Header>
-        <div className="DepartamentoMain">
+        <div className="AcaoSocialHeader">
+            <button className='backToMain' onClick={()=> navigate(-1)}>
+                    <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+            </button>
+        </div>
+        <div className="ManifestoMain">
        <div id="introduçao">
             <p>A AEFEUP, como a vemos, tem de ser uma associação próxima e tomar conhecimento dos
                 reais problemas e anseios dos estudantes, levando-os à direção da FEUP se necessário

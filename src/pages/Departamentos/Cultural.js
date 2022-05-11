@@ -1,14 +1,20 @@
 import './Departamento.css';
-import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 function Cultural() {
+const navigate = useNavigate();
   return (
     <div className='departamento'>
-        <Header section_name='CULTURAL'></Header>
-        <div className="DepartamentoMain">
-        <div id="introduçao">
+        <div className="CulturalHeader">
+        <button className='backToMain' onClick={()=> navigate(-1)}>
+                <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+        </button>
+        </div>
+        <div className="ManifestoMain">
+       <div id="introduçao">
             <p>
                 Consideramos a cultura algo essencial para a educação de todos. Cabe, também, à AEFEUP
                 promovê-la junto dos estudantes da FEUP. O acesso à mesma, seja como criador ou

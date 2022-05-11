@@ -1,13 +1,19 @@
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Component } from 'react';
+import './Departamento.css';
 import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 function Imagem() {
+  const navigate = useNavigate();
   return (
     <div className='departamento'>
-        <Header section_name='IMAGEM'></Header>
-        <div className="DepartamentoMain">
+        <div className="ComunicacaoHeader">
+              <button className='backToMain' onClick={()=> navigate(-1)}>
+                      <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+              </button>
+            </div>
+        <div className="ManifestoMain">
        <div id="introduçao">
             <p>Acreditamos que a comunicação deve estabelecer uma ponte entre os alunos e órgãos sociais da FEUP e alcançar 
                 tanto a comunidade académica quanto parceiros externos e grupos de interesse, procurando, simultaneamente, inovar na forma como 

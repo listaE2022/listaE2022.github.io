@@ -2,13 +2,20 @@ import './Departamento.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 function Logistica() {
-  return (
+const navigate = useNavigate();
+return (
     <div className='departamento'>
-        <Header section_name='LOGÍSTICA'></Header>
-        <div className="DepartamentoMain">
-            <div id="introduçao">
+        <div className="LogisticaHeader">
+            <button className='backToMain' onClick={()=> navigate(-1)}>
+                    <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+            </button>
+        </div>
+        <div className="ManifestoMain">
+            <div className ="paragrafo">
 
             <p>
             Uma associação de estudantes deve, sobretudo, servir os estudantes. A AEFEUP não é exceção. Fazer isso em todas as suas vertentes, 

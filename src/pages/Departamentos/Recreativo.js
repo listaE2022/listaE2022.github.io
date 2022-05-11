@@ -2,11 +2,18 @@ import './Departamento.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 function Recreativo() {
+  const navigate = useNavigate();
   return (
     <div className='departamento'>
-        <Header section_name='RECREATIVO'></Header>
+        <div className="RecreativoHeader">
+              <button className='backToMain' onClick={()=> navigate(-1)}>
+                      <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+              </button>
+            </div>
       <div className="DepartamentoMain">
       <div id="introduçao">
             <p>

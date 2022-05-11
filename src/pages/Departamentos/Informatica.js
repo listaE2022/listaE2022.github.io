@@ -2,12 +2,19 @@ import './Departamento.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 function Informatica() {
+const navigate = useNavigate();
   return (
     <div className='departamento'>
-        <Header section_name='INFORMATICA'></Header>
-        <div className="DepartamentoMain">
+        <div className="InformaticaHeader">
+            <button className='backToMain' onClick={()=> navigate(-1)}>
+                    <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+            </button>
+        </div>
+        <div className="ManifestoMain">
        <div id="introduçao">
             <p>
             Consideramos que, no contexto atual, é de grande relevância a manutenção de tecnologias de informação próprias para o funcionamento 

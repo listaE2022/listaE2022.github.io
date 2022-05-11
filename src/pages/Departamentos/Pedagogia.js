@@ -2,12 +2,19 @@ import './Departamento.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 function Pedagogia() {
-  return (
+const navigate = useNavigate();
+return (
     <div className='departamento'>
-        <Header section_name='PEDAGOGIA E EMPREGO'></Header>
-        <div className="DepartamentoMain">
+        <div className="PedagogiaHeader">
+            <button className='backToMain' onClick={()=> navigate(-1)}>
+                    <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+            </button>
+        </div>
+        <div className="ManifestoMain">
        <div id="introduçao">
             <p>
                 Uma Associação de Estudantes tem de pôr em primeiro lugar, por princípio, a defesa dos
