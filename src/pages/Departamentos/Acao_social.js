@@ -1,5 +1,8 @@
 import './Departamento.css';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 function AcaoSocial() {
   return (
     <div className='departamento'>
@@ -233,6 +236,11 @@ function AcaoSocial() {
        
     
     </div>
+    <button id='scrollToTopBtn' className='scrollToTopBtn'>
+        <FontAwesomeIcon icon={faArrowUp} size="lg" />
+    </button>
+
+    <Footer></Footer>
         
     </div>
   );

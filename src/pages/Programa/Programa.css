@@ -3,7 +3,7 @@
 }
 
 .programa-container{
-    margin-top: 15vh;
+    margin-top: 5vh;
     
 }
 
@@ -11,3 +11,38 @@
     margin: 2vh;
 }
 
+.pedagogia{
+    margin-left: auto;
+    order: 2;
+}
+
+.centerButtonPdf{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.scrollToTopBtn {
+    /* same general styles as before */
+    
+    /* place it at the bottom-right corner */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  
+    /* keep it at the top of everything else */
+    z-index: 100;
+  
+    /* hide with opacity */
+    opacity: 0;
+  
+    /* also add a translate effect */
+    transform: translateY(100px);
+  
+    /* and a transition */
+    transition: all .5s ease
+  }
+  
+  .showBtn {
+    opacity: 1;
+    transform: translateY(0)
+  }

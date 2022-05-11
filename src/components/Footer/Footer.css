@@ -25,14 +25,18 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
     width: 100%;
-
     text-align: left;
 }
 
 .link{
     text-decoration: none;
+    color: #CAC5FF;
+}
+
+.Footer ul li{
+    color: #FFEE70;
+    font-weight: bolder;
 }
 
 .Footer ul li{

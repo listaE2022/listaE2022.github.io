@@ -1,4 +1,3 @@
-
 var scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 var rootElement = document.documentElement

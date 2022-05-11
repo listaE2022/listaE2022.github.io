@@ -10,7 +10,7 @@ function Home() {
 
         
         <div className='navigation'>
-        <h1 id='slogan'>Escutar os Estudantes!</h1>
+        <h1 id='slogan'>Expressa-te: É hora de mudar!</h1>
           <Link className='manifesto' to="/manifesto">
           <Button variant="btn btn-outline-primary btn-round">O Nosso Manifesto</Button>
           </Link> 

@@ -15,6 +15,7 @@ import Informatica from '../../pages/Departamentos/Informatica';
 import Cultural from '../../pages/Departamentos/Cultural';
 import Pedagogia from '../../pages/Departamentos/Pedagogia';
 import AcaoSocial from '../../pages/Departamentos/Acao_social';
+import Cooperacao from '../../pages/Departamentos/Cooperacao';
 
 const Main = () => {
   return (
@@ -37,6 +38,7 @@ const Main = () => {
 
 
 
+      <Route path="/programa/cooperacao_e_estudantes" element={<Cooperacao />} /> 
 
 
 

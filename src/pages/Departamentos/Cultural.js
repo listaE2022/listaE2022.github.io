@@ -1,5 +1,8 @@
 import './Departamento.css';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 function Cultural() {
   return (
     <div className='departamento'>
@@ -157,7 +160,12 @@ function Cultural() {
                     </div>
             </div>
         </div>
-    </div>
+        </div>
+    <button id='scrollToTopBtn' className='scrollToTopBtn'>
+        <FontAwesomeIcon icon={faArrowUp} size="lg" />
+    </button>
+
+    <Footer></Footer>
         
     </div>
   );
