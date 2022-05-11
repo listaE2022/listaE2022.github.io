@@ -3,13 +3,21 @@ import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import YoutubeEmbed from '../../components/Video-Player/YouTubeEmbed';
-import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Conhece() {
-  return (
+const navigate = useNavigate();
+return (
+      
     <div className="ConheceMain">
-
+        <div className="ConheceHeader">
+            <button className='backToMain' onClick={()=> navigate(-1)}>
+                    <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
+            </button>
+        </div>
         
         <div className='Conhece'>
              <h2 id="apresentacao_title">Apresentação da Lista 2022</h2>

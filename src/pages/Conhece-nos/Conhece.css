@@ -21,3 +21,10 @@
 #container{
     text-align: center;
 }
+
+.ConheceHeader{
+    background: #22115F url('../../images/conhece.png') no-repeat center center / auto 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
