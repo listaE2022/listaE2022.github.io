@@ -46,44 +46,50 @@ class Programa extends Component {
 
                 <div className="row">
                   <div className="col-lg">
-                    
-                    <Figure image={cultural} path="/programa/cultural"></Figure>
+                    <Figure image={saude} path="/programa/saude"></Figure>
                   </div>
 
-                    <div className="col-lg">
-                        <Figure image={logistica} path="/programa/logistica"></Figure>
-                      
-                    </div>
-                    <div className="col-lg">
-                    <Figure image={desporto} path="/programa/desporto"></Figure>
-                    </div>
-                    
+                  <div className="col-lg">
+                    <Figure image={acao_social} path="/programa/acao_social"></Figure>
+                  </div>
+                  <div className="col-lg">
+                    <Figure image={ambiente} path="/programa/ambiente"></Figure>
+                  </div>
                     
                 </div>
+                    
+
 
                 <div className="row">
                   <div className="col-lg">
                     <Figure image={comunicacao} path="/programa/comunicacao"></Figure>
                   </div>
                   <div className="col-lg">
-                    <Figure image={informatica} path="/programa/informatica"></Figure>
+                    <Figure image={cooperacao} path="/programa/cooperacao_e_estudantes"></Figure>
                   </div>
-
                   <div className="col-lg">
-                    <Figure image={pedagogia} path="/programa/pedagogia_emprego"></Figure>
+                    <Figure image={cultural} path="/programa/cultural"></Figure>
                   </div>
-
                 </div>
 
                 <div className="row">
                   <div className="col-lg">
-                    <Figure image={acao_social} path="/programa/acao_social"></Figure>
+                    <Figure image={desporto} path="/programa/desporto"></Figure>
                   </div>
                   <div className="col-lg">
-                    <Figure image={cooperacao} path="/programa/cooperacao_e_estudantes"></Figure>
+                    <Figure image={informatica} path="/programa/informatica"></Figure>
                   </div>
-
+                  <div className="col-lg">
+                      <Figure image={logistica} path="/programa/logistica"></Figure>
+                  </div>
                   
+
+                </div>
+
+                <div className="row">
+                  <div className="col-lg" class="pedagogia">
+                    <Figure image={pedagogia} path="/programa/pedagogia"></Figure>
+                  </div>
 
                 </div>
 
