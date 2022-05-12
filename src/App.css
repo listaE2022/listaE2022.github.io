@@ -4,3 +4,14 @@ body, html{
     font-family: 'Poppins';
     background-color: #4A3197;
 }
+
+h2{
+    margin-top: 2vh;
+    text-decoration: underline;
+    text-decoration-color: #FFEE70;
+    text-decoration-thickness: 3px;
+}
+
+a:hover{
+    text-decoration: none;
+}

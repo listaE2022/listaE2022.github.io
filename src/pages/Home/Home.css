@@ -6,10 +6,11 @@
     flex-direction: column;
 }
 
-.container{
-    width: 40%;
-}
 
+
+#mainButtons{
+    width:40%;
+}
 
 #slogan{
     color: white;
@@ -18,16 +19,17 @@
     font-size: 50vi;
 }
 
+.navButton{
+    margin-bottom: 1vh;
+}
+
 .navigation{
-    margin-top: auto;
+    margin-top: 60vh;
     margin-bottom: 5vh;
     text-decoration: wavy;
 
 }
 
-.manifesto{
-    margin-right: 2vh;
-}
 
 .btn.btn-outline-primary {
     color: #FFFFFF;
