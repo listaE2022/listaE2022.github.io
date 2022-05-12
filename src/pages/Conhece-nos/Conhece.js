@@ -18,22 +18,18 @@ function Conhece() {
 
           
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
+           
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                
+                    <h2 id="apresentacao_title" >Direção</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >A tua Direção</h2>
+                        
                         <div id="row">
                             <div id="col-sm">
-                                <img src='./images/oscar.png'></img>
+                                <img className='responsive_img' src='./images/oscar.png'></img>
                             </div>
                             <div id="col-sm">
-                                <img src='./images/margarida (1).png'></img>
+                                <img className='responsive_img' src='./images/margarida.png'></img>
                             </div>
                             
                         </div>
@@ -43,39 +39,112 @@ function Conhece() {
                 </div>
                 <div class="carousel-item">
 
-                <div id="container">
-                        <h2 id="apresentacao_title" >A tua Direção</h2>
+                    <div id="container">
+                        <h2 id="apresentacao_title" >Direção</h2>
                         <div id="row">
                             <div id="col-sm">
-                                <img src='./images/miguel_lopes.png'></img>
+                                <img className='responsive_img' src='./images/miguel_lopes.png'></img>
                             </div>
                             <div id="col-sm">
-                                <img src='./images/beatriz_loureiro.png'></img>
+                                <img className='responsive_img' src='./images/manel.png'></img>
                             </div>
-                            <div id="col-sm">
-                                <img src='./images/joao_teixeira.png'></img>
-                            </div>
+                            
                         </div>
                     </div>
                     
                 </div>
                 <div class="carousel-item">
 
-                <div id="container">
-                        <h2 id="apresentacao_title" >A tua Direção</h2>
+                    <div id="container">
+                        <h2 id="apresentacao_title" >Direção</h2>
                         <div id="row">
                             <div id="col-sm">
-                                <img src='./images/oscar.png'></img>
+                                <img className='responsive_img' src='./images/beatriz_loureiro.png'></img>
                             </div>
                             <div id="col-sm">
-                                <img src='./images/margarida.png'></img>
+                                <img className='responsive_img' src='./images/joao_teixeira.png'></img>
                             </div>
-                            <div id="col-sm">
-                                <img src='./images/manel.png'></img>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item">
+
+                    <div id="container">
+                        <h2 id="apresentacao_title" >Direção</h2>
+                        <div id="row">
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/antonio.png'></img>
+                            </div>
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/ana.png'></img>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div id="container">
+                        <h2 id="apresentacao_title" >Mesa da Assembleia Geral</h2>
+                        <div id="row">
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/aguiar.png'></img>
+                            </div>
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/vaz.png'></img>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div id="container">
+                        <h2 id="apresentacao_title" >Mesa da Assembleia Geral</h2>
+                        <div id="row">
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/joana.png'></img>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div id="container">
+                        <h2 id="apresentacao_title" >Conselho Fiscal</h2>
+                        <div id="row">
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/martim.png'></img>
+                            </div>
+                            
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/jose.png'></img>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div id="container">
+                        <h2 id="apresentacao_title" >Conselho Fiscal</h2>
+                        <div id="row">
+                            <div id="col-sm">
+                                <img className='responsive_img' src='./images/ligia.png'></img>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
