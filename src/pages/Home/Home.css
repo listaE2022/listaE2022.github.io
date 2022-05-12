@@ -6,11 +6,18 @@
     flex-direction: column;
 }
 
-
-
-#mainButtons{
-    width:40%;
+@media (max-width: 799px){
+    #mainButtons{
+        width:100%;
+    }
 }
+@media (min-width: 799px){
+    #mainButtons{
+        width:40%;
+    }
+}
+
+
 
 #slogan{
     color: white;
