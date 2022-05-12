@@ -1,4 +1,3 @@
-
 var scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 var rootElement = document.documentElement
@@ -16,7 +15,7 @@ scrollToTopBtn.addEventListener("click", scrollToTop)
 function handleScroll() {
     // Do something on scroll
     var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
-    if ((rootElement.scrollTop / scrollTotal ) > 0.30 ) {
+    if ((rootElement.scrollTop / scrollTotal ) > 0.3 ) {
       // Show button
       scrollToTopBtn.classList.add("showBtn")
     } else {
