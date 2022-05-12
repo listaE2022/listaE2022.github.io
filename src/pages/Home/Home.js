@@ -5,7 +5,7 @@ import SocialMedia from '../../components/SocialMedia/SocialMedia';
 
 function Home() {
   return (
-    <div className="Home">
+    
       <div className="MainHeader">
 
 
@@ -40,7 +40,7 @@ function Home() {
          <SocialMedia></SocialMedia>
       </div>
 
-    </div>
+    
   );
 }
 
