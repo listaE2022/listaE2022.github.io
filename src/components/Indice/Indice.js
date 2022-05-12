@@ -18,7 +18,7 @@ class Indice extends Component {
     return (
         <aside className="Indice">
         <header className='IndiceName'>
-            <h2>Indice</h2>
+            <h2 id="indice_title">Índice</h2>
         
             <button className='expand-button' id='expand-button'>
                 <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
