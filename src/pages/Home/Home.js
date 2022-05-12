@@ -27,7 +27,7 @@ function Home() {
                   </div>
                   <div className='col-sm navButton'>
                     <Link className='program' to="/conhece_nos">
-                  <Button variant="btn btn-outline-primary btn-round">   Conhece-nos   </Button>
+                  <Button variant="btn btn-outline-primary btn-round">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conhece-nos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button>
                     </Link> 
                   </div>
                 

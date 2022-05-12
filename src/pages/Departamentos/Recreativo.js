@@ -1,5 +1,4 @@
 import './Departamento.css';
-import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
