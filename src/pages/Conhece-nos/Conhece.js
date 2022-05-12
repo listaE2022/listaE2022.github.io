@@ -1,7 +1,4 @@
 import './Conhece.css';
-import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
-import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import YoutubeEmbed from '../../components/Video-Player/YouTubeEmbed';
 import Footer from '../../components/Footer/Footer';
 import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
