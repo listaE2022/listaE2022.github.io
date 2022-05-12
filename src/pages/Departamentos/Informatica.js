@@ -14,7 +14,7 @@ const navigate = useNavigate();
                     <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
             </button>
         </div>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>
             Consideramos que, no contexto atual, é de grande relevância a manutenção de tecnologias de informação próprias para o funcionamento 

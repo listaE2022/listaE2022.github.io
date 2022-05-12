@@ -13,7 +13,7 @@ const navigate = useNavigate();
                 <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
         </button>
         </div>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>
                 Consideramos a cultura algo essencial para a educação de todos. Cabe, também, à AEFEUP

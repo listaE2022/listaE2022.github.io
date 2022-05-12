@@ -13,7 +13,7 @@ function Imagem() {
                       <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
               </button>
             </div>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>Acreditamos que a comunicação deve estabelecer uma ponte entre os alunos e órgãos sociais da FEUP e alcançar 
                 tanto a comunidade académica quanto parceiros externos e grupos de interesse, procurando, simultaneamente, inovar na forma como 

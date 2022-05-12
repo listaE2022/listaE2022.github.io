@@ -14,7 +14,7 @@ return (
                     <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
             </button>
         </div>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>A AEFEUP, como a vemos, tem de ser uma associação próxima e tomar conhecimento dos
                 reais problemas e anseios dos estudantes, levando-os à direção da FEUP se necessário

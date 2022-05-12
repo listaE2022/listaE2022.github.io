@@ -14,7 +14,7 @@ return (
                     <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
             </button>
         </div>
-        <div className="ManifestoMain">
+        <div className="DepartamentoMain">
        <div id="introduçao">
             <p>
                 Uma Associação de Estudantes tem de pôr em primeiro lugar, por princípio, a defesa dos
