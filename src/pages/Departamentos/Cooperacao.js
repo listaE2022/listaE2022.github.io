@@ -17,6 +17,7 @@ class Cooperacao extends Component {
         var script_in_page = document.getElementById("goBackBtn-script");
         if(script_in_page != null) script_in_page.remove()
         document.body.appendChild(script);
+        window.scrollTo(0,0);
     }
 
     render(){
