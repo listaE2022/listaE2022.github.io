@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa7667bf.css",
+    "main.css": "/static/css/main.1ce3ca54.css",
     "main.js": "/static/js/main.bf12c743.js",
     "static/media/saude.png": "/static/media/saude.5b58da44dbadbeae27a9.png",
     "static/media/conhece.png": "/static/media/conhece.c707deb4bed439f6d808.png",
@@ -30,11 +30,11 @@
     "static/media/main_logo.png": "/static/media/main_logo.e7d60a05a9241b89280f.png",
     "static/media/informatica.png": "/static/media/informatica.f3dc7b987f54a9375205.png",
     "index.html": "/index.html",
-    "main.fa7667bf.css.map": "/static/css/main.fa7667bf.css.map",
+    "main.1ce3ca54.css.map": "/static/css/main.1ce3ca54.css.map",
     "main.bf12c743.js.map": "/static/js/main.bf12c743.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa7667bf.css",
+    "static/css/main.1ce3ca54.css",
     "static/js/main.bf12c743.js"
   ]
 }
