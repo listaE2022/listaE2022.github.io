@@ -26,7 +26,7 @@ class Manifesto extends Component {
       return (
       <div className="Manifesto">
         
-          <Header section_name='MANIFESTO'></Header>
+          <Header section_name=''></Header>
           <div className='centerPdfButton'>
             <a href='https://drive.google.com/u/0/uc?id=1L4oUuoRNMXvvIYAtog7Ntg6G2fG5Wm_j&export=download'>
               <button className="btn btn-outline-primary btn-round pdf-save">
