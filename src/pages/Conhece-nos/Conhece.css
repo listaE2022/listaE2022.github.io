@@ -9,6 +9,7 @@
 #apresentacao_title{
     margin-top: 2vh;
     text-decoration: underline;
+    text-align: center;
     text-decoration-color: #FFEE70;
     text-decoration-thickness: 3px;
     
@@ -16,11 +17,11 @@
 
 #row{
     background-color: #22115F;
-    
 }
 
 #container{
     text-align: center;
+    background-color: #22115F;
 }
 
 .responsive_img{

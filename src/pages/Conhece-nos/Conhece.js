@@ -29,129 +29,118 @@ return (
            
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <h2 id="apresentacao_title" >Direção</h2>
+                <h2 id="apresentacao_title" >Direção</h2>
                     <div id="container">
-                        
-                        <div id="row">
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/oscar.png'></img>
-                            </div>
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/margarida.png'></img>
-                            </div>
+                    
+                        <img className='responsive_img' src='./images/oscar.png'></img>
                             
-                        </div>
                     </div>
                 
 
                 </div>
                 <div class="carousel-item">
-
+                <h2 id="apresentacao_title" >Direção</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >Direção</h2>
-                        <div id="row">
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/miguel_lopes.png'></img>
-                            </div>
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/manel.png'></img>
-                            </div>
+                    
+                        <img className='responsive_img' src='./images/margarida.png'></img>
                             
-                        </div>
+                    </div>
+                
+
+                </div>
+                <div class="carousel-item">
+                <h2 id="apresentacao_title" >Direção</h2>
+                    <div id="container">
+                    
+                        <img className='responsive_img' src='./images/manel.png'></img>
+                            
+                    </div>
+                
+
+                </div>
+                <div class="carousel-item">
+                <h2 id="apresentacao_title" >Direção</h2>
+                    <div id="container">
+                    
+                        <img className='responsive_img' src='./images/miguel_lopes.png'></img>
+                        
                     </div>
                     
                 </div>
                 <div class="carousel-item">
-
+                <h2 id="apresentacao_title" >Direção</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >Direção</h2>
-                        <div id="row">
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/beatriz_loureiro.png'></img>
-                            </div>
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/joao_teixeira.png'></img>
-                            </div>
-                            
-                        </div>
+                       
+                        <img className='responsive_img' src='./images/beatriz_loureiro.png'></img>
+            
                     </div>
                 </div>
                 <div class="carousel-item">
-
+                <h2 id="apresentacao_title" >Direção</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >Direção</h2>
-                        <div id="row">
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/antonio.png'></img>
-                            </div>
-                            <div id="col-sm">
+                            <img className='responsive_img' src='./images/antonio.png'></img>
+                        </div>
+                    
+                </div>
+                <div class="carousel-item">
+                <h2 id="apresentacao_title" >Direção</h2>
+                    <div id="container">
+
                                 <img className='responsive_img' src='./images/ana.png'></img>
-                            </div>
-                            
                         </div>
-                    </div>
+                    
                 </div>
-
                 <div class="carousel-item">
-
+                <h2 id="apresentacao_title" >Mesa da Assembleia Geral</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >Mesa da Assembleia Geral</h2>
-                        <div id="row">
-                            <div id="col-sm">
+
                                 <img className='responsive_img' src='./images/aguiar.png'></img>
-                            </div>
-                            <div id="col-sm">
+                        </div>
+                    
+                </div>
+                <div class="carousel-item">
+                <h2 id="apresentacao_title" >Mesa da Assembleia Geral</h2>
+                    <div id="container">
+
                                 <img className='responsive_img' src='./images/vaz.png'></img>
-                            </div>
-                            
                         </div>
-                    </div>
+                    
                 </div>
-
                 <div class="carousel-item">
-
+                <h2 id="apresentacao_title" >Mesa da Assembleia Geral</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >Mesa da Assembleia Geral</h2>
-                        <div id="row">
-                            <div id="col-sm">
+
                                 <img className='responsive_img' src='./images/joana.png'></img>
-                            </div>
-                            
-                            
                         </div>
-                    </div>
+                    
                 </div>
 
                 <div class="carousel-item">
-
+                <h2 id="apresentacao_title" >Conselho Fiscal</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >Conselho Fiscal</h2>
-                        <div id="row">
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/martim.png'></img>
-                            </div>
-                            
-                            <div id="col-sm">
-                                <img className='responsive_img' src='./images/jose.png'></img>
-                            </div>
-                            
+
+                            <img className='responsive_img' src='./images/martim.png'></img>
                         </div>
-                    </div>
+                    
                 </div>
-
                 <div class="carousel-item">
-
+                <h2 id="apresentacao_title" >Conselho Fiscal</h2>
                     <div id="container">
-                        <h2 id="apresentacao_title" >Conselho Fiscal</h2>
-                        <div id="row">
-                            <div id="col-sm">
+                        <img className='responsive_img' src='./images/jose.png'></img>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item">
+                <h2 id="apresentacao_title" >Conselho Fiscal</h2>
+                    <div id="container">
+
                                 <img className='responsive_img' src='./images/ligia.png'></img>
-                            </div>
-                            
-                            
                         </div>
-                    </div>
+                    
                 </div>
+               
+                
+
 
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
