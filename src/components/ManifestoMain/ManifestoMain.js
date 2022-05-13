@@ -8,7 +8,7 @@ function ManifestoMain() {
             <p>
             A Lista E apresenta, mais uma vez, a sua candidatura à Associação de Estudantes da
         Faculdade de Engenharia da Universidade do Porto.
-    </p>
+            </p>
     <p>
     No passado ano letivo de 2020/2021, surgimos como uma lista alternativa, quebrando a
 tendência da lista única candidata aos órgãos sociais da AEFEUP, procurando fomentar a

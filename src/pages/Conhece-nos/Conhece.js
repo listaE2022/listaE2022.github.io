@@ -17,11 +17,7 @@ class Conhece extends Component {
             </div>
             
             <div className='Conhece'>
-                 <h2 id="apresentacao_title">Apresentação da Lista 2022</h2>
-          
-              <YoutubeEmbed embedId="DedN5Ll6HPI" />
-    
-              
+                
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                
                 <div class="carousel-inner">
@@ -149,8 +145,19 @@ class Conhece extends Component {
                     <span class="sr-only">Next</span>
                 </a>
                 </div>
+
+
+    <h2 id="apresentacao_title">Apresentação da Lista 2022</h2>
+          
+              <YoutubeEmbed embedId="HZPi-L0enPY" />
     
+            
+              <h2 id="apresentacao_title">Debate Eleitoral</h2>
+          
+          <YoutubeEmbed embedId="t4nw3gpbDsk" />
             </div>
+
+            
          
           
           <Footer></Footer>
