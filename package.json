@@ -2,7 +2,7 @@
   "name": "programa_site_e",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://poodlers.github.io",
+  "homepage": "https://listae2022.github.io/",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -20,6 +20,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.51.0",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },

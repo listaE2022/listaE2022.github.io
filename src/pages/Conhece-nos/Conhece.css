@@ -9,6 +9,7 @@
 #apresentacao_title{
     margin-top: 2vh;
     text-decoration: underline;
+    text-align: center;
     text-decoration-color: #FFEE70;
     text-decoration-thickness: 3px;
     
@@ -20,8 +21,14 @@
 
 #container{
     text-align: center;
+    background-color: #22115F;
 }
 
+.responsive_img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2vh;
+}
 .ConheceHeader{
     background: #22115F url('../../images/conhece.png') no-repeat center center / auto 100%;
     height: 50vh;

@@ -1,17 +1,19 @@
 import './Departamento.css';
 import Footer from '../../components/Footer/Footer';
+import { Component } from 'react';
+import GoBackButton from '../../components/GoBackButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from 'react-router-dom';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
-function CF() {
-  const navigate = useNavigate();
+class CF extends Component {
+  componentDidMount(){
+    window.scrollTo(0, 0);
+}
+  render(){
     return (
       <div className='departamento'>
           <div className="CFHeader">
-              <button className='backToMain' onClick={()=> navigate(-1)}>
-                      <FontAwesomeIcon icon={faCircleArrowLeft} size="3x"></FontAwesomeIcon>
-              </button>
+              <GoBackButton></GoBackButton>
             </div>
           <div className="DepartamentoMain">
               <div class="paragrafo">
@@ -79,6 +81,8 @@ function CF() {
           <Footer></Footer>
       </div>
     );
+  }
+   
 }
 
 export default CF;

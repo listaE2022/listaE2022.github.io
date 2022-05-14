@@ -19,7 +19,7 @@
 }
 
 
-h2{
+.Manifesto h2{
     text-align: center;
     font-weight: bolder;
     color: #22115F;
@@ -38,7 +38,7 @@ h2{
     margin: auto;
     text-justify: auto;
     text-align: justify;
-    width: 50%;
+    width: 60%;
     margin-bottom: 10vh;
 }
 

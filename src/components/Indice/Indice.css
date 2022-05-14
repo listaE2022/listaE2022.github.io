@@ -9,6 +9,7 @@
     top: 60px;
     position: sticky;
     margin-left: 0;
+    text-align: center;
 }
 
 .expand-button{
@@ -31,6 +32,7 @@
     margin-top: 20px;
 }
 
+
 }
 
 @media (max-width: 799px){
@@ -49,12 +51,12 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 2vh;
+        text-align: center;
     }
 
     .nav-indice{
         display: none;
         transition: 3s ease-out;
-
     }
 
     .aberto{
@@ -91,9 +93,12 @@
     color: #FFEE70;
     font-weight: bolder;
 }
+#indice_title{
+    text-align: center;
+}
 
-.Indice h2{
-    font-weight: bolder;
+.IndiceName {
+    font-weight: bold;
     color: #22115F;
-    font-weight: bolder;
+    text-align: center;
 }

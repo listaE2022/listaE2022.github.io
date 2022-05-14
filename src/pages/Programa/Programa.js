@@ -20,6 +20,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 class Programa extends Component {
+  componentDidMount(){
+    window.scrollTo(0, 0);
+  }
 
   render(){
         return (

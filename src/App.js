@@ -1,5 +1,6 @@
 import './App.css';
 import Main from './components/MainComponent/Main';
+import './viewport_ios_fix.scss';
 
 function App() {
   return (

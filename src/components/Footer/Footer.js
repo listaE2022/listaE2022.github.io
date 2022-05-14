@@ -34,6 +34,12 @@ function Footer() {
                     <FontAwesomeIcon icon={faArrowRight} />Programa
                     </Link> 
                     </li>
+
+                    <li>
+                    <Link className='link' to="/conhece_nos">
+                    <FontAwesomeIcon icon={faArrowRight} />Conhece-nos
+                    </Link> 
+                    </li>
                 </ul>
             </div>
             <div className='col-lg-4 col-md-6 contactos'>
