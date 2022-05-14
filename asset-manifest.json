@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.32a55b11.css",
-    "main.js": "/static/js/main.c954808a.js",
+    "main.css": "/static/css/main.4510686a.css",
+    "main.js": "/static/js/main.8bbc6a8e.js",
     "static/media/saude.png": "/static/media/saude.5b58da44dbadbeae27a9.png",
     "static/media/conhece.png": "/static/media/conhece.c707deb4bed439f6d808.png",
     "static/media/acao_social_titulo.png": "/static/media/acao_social_titulo.ade4adabf5a3c21f1286.png",
@@ -9,12 +9,12 @@
     "static/media/comunicacao_titulo.png": "/static/media/comunicacao_titulo.61acfb785714f04668bc.png",
     "static/media/recreativo_titulo.png": "/static/media/recreativo_titulo.63219f4e0af87e8cafb5.png",
     "static/media/desporto_titulo.png": "/static/media/desporto_titulo.e82063fa752b0d20038a.png",
-    "static/media/logistica_titulo.png": "/static/media/logistica_titulo.6e47b42240b360e77548.png",
     "static/media/cooperacao_titulo.png": "/static/media/cooperacao_titulo.fe7ac02958d5027b7e93.png",
     "static/media/cultural_titulo.png": "/static/media/cultural_titulo.2a26a846ddf314f02c62.png",
     "static/media/MAG_titulo.png": "/static/media/MAG_titulo.f646c5f09e743cacd1ab.png",
     "static/media/pedagogia_titulo.png": "/static/media/pedagogia_titulo.dabba5aa1ac54f6b7193.png",
     "static/media/informatica_titulo.png": "/static/media/informatica_titulo.b8c8c8e79ca8364428eb.png",
+    "static/media/logistica_titulo.png": "/static/media/logistica_titulo.e011a17970590c0099e2.png",
     "static/media/E-site.png": "/static/media/E-site.7ad5b52505d6fbd87dbe.png",
     "static/media/comunicacao.png": "/static/media/comunicacao.e87ba5447b1ceaa539b1.png",
     "static/media/acao_social.png": "/static/media/acao_social.2ee74669252132eb6e4d.png",
@@ -23,18 +23,18 @@
     "static/media/CF.png": "/static/media/CF.c46a343d974deccfb68d.png",
     "static/media/desporto.png": "/static/media/desporto.4979645fd00ccf468bf5.png",
     "static/media/recreativo.png": "/static/media/recreativo.507e08621884a797402f.png",
-    "static/media/logistica.png": "/static/media/logistica.fa5881afbf613b2c9e3d.png",
     "static/media/MAG.png": "/static/media/MAG.fd382a400224164fce63.png",
     "static/media/pedagogia.png": "/static/media/pedagogia.251665047e373ae5afbe.png",
     "static/media/cultural.png": "/static/media/cultural.531ac3e81540e076687e.png",
     "static/media/main_logo.png": "/static/media/main_logo.e7d60a05a9241b89280f.png",
+    "static/media/logistica.png": "/static/media/logistica.9d0968ab1900b6b33ca4.png",
     "static/media/informatica.png": "/static/media/informatica.f3dc7b987f54a9375205.png",
     "index.html": "/index.html",
-    "main.32a55b11.css.map": "/static/css/main.32a55b11.css.map",
-    "main.c954808a.js.map": "/static/js/main.c954808a.js.map"
+    "main.4510686a.css.map": "/static/css/main.4510686a.css.map",
+    "main.8bbc6a8e.js.map": "/static/js/main.8bbc6a8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.32a55b11.css",
-    "static/js/main.c954808a.js"
+    "static/css/main.4510686a.css",
+    "static/js/main.8bbc6a8e.js"
   ]
 }
