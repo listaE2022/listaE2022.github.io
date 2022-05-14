@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4510686a.css",
-    "main.js": "/static/js/main.8bbc6a8e.js",
+    "main.js": "/static/js/main.acd5081d.js",
     "static/media/saude.png": "/static/media/saude.5b58da44dbadbeae27a9.png",
     "static/media/conhece.png": "/static/media/conhece.c707deb4bed439f6d808.png",
     "static/media/acao_social_titulo.png": "/static/media/acao_social_titulo.ade4adabf5a3c21f1286.png",
@@ -27,14 +27,14 @@
     "static/media/pedagogia.png": "/static/media/pedagogia.251665047e373ae5afbe.png",
     "static/media/cultural.png": "/static/media/cultural.531ac3e81540e076687e.png",
     "static/media/main_logo.png": "/static/media/main_logo.e7d60a05a9241b89280f.png",
-    "static/media/logistica.png": "/static/media/logistica.9d0968ab1900b6b33ca4.png",
+    "static/media/logistica.png": "/static/media/logistica.4092ae296e628a1d9281.png",
     "static/media/informatica.png": "/static/media/informatica.f3dc7b987f54a9375205.png",
     "index.html": "/index.html",
     "main.4510686a.css.map": "/static/css/main.4510686a.css.map",
-    "main.8bbc6a8e.js.map": "/static/js/main.8bbc6a8e.js.map"
+    "main.acd5081d.js.map": "/static/js/main.acd5081d.js.map"
   },
   "entrypoints": [
     "static/css/main.4510686a.css",
-    "static/js/main.8bbc6a8e.js"
+    "static/js/main.acd5081d.js"
   ]
 }
